@@ -1,27 +1,25 @@
 import os
 import time
+import json
 import random
+import tkinter as tk
 
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome import service as fs
+from subprocess import CREATE_NO_WINDOW
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.chrome import service as fs
+from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 class Application:
 
-    def _GetVehicleDataFromWeb(self):
-
-        # ドライバー生成
+    def __init__(self):
+        self.WebUrl = "https://gtacars.net/gta5?q&page=1&filter_dlc=mpluxe2&filter_dlc=mpluxe&filter_dlc=mpheist&filter_dlc=mpchristmas2&filter_dlc=spupgrade&filter_dlc=mplts&filter_dlc=mppilot&filter_dlc=mpindependence&filter_dlc=mphipster&filter_dlc=mpbusiness2&filter_dlc=mpbusiness&filter_dlc=mpvalentines&filter_dlc=mpbeach&filter_dlc=TitleUpdate&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&filter_class=coupe&filter_class=motorcycle&filter_class=sedan&filter_class=sport&filter_class=sport_classic&filter_class=super&filter_class=suv&perPage=60"
         self._driver_start()
-        self._start_GettingDatas()
-
 
     def _driver_start(self):
-        self.btnDriverStart['state'] = 'disabled'
-        self.btnDriverStart['text'] = 'ログイン中…'
         start = time.time()
 
         # UA
@@ -36,7 +34,7 @@ class Application:
         # ドライバーのオプション設定用
         option = Options()
         option.add_argument('--lang=ja')
-        option.add_argument('--headless')
+        # option.add_argument('--headless')
         option.add_argument('--no-sandbox')
         option.add_argument('--disable-gpu')
         option.add_argument('--log-level=3')
@@ -45,7 +43,7 @@ class Application:
         option.add_argument('--disable-dev-shm-usage')
         option.add_argument('--use-fake-ui-for-media-stream')
         option.add_argument('--use-fake-device-for-media-stream')
-        option.add_argument('--blink-settings=imagesEnabled=false')
+        # option.add_argument('--blink-settings=imagesEnabled=false')
         option.add_experimental_option('useAutomationExtension', False)
         option.add_experimental_option("excludeSwitches", ["enable-logging"])
         option.page_load_strategy = 'eager'
@@ -56,37 +54,50 @@ class Application:
         except Exception as e:
 
             tk.messagebox.showerror('Error', f'既存のChrome_Driverのバージョンが合っていない又はChrome_Driverがありません。\n {e}')
-            self._kill_threads()
 
         else:
 
-            self.driver = webdriver.Chrome(service=service,
-                                           options=option)
+            self.driver = webdriver.Chrome(
+                service=service,
+                options=option
+            )
 
         self.wait = WebDriverWait(driver=self.driver, timeout=120)
 
         # エラーがおきる可能性があるためTRY
         try:
-            print(f'[LOG]{self.login_url}' + 'に接続...')
-            self.driver.get(self.login_url)
+            print(f'[LOG]{self.WebUrl}' + 'に接続...')
+            self.driver.get(self.WebUrl)
 
         # エラーが起きた時の処理
         except Exception as e:
             print(e)
             print('[ERROR]Driverの起動に失敗しました。')
-            self._kill_threads()
 
         else:
             stop = time.time()
             result = stop - start
-            print(f'[LOG]アプリケーション起動までの時間：{result}s')
+            print(f'[LOG] アプリケーション起動までの時間：{result}s')
 
             start = time.time()
-            self._login()
+            time.sleep(5)
+            self._start_GettingDatas()
             stop = time.time()
 
             result = stop - start
-            print(f'[LOG]ログインまでの時間：{result}s')
+            print(f'[LOG] 処理にかかった時間：{result}s')
+
+    def _start_GettingDatas(self):
+        self._get_element_container_of_vehicle_data()
+
+    def _get_element_container_of_vehicle_data(self):
+
+        elements_data = self.driver.find_elements(By.XPATH,"//div[@class='grid gap-4 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4']/div")
+        # print(f"{len(elements_data)}")
+
+
+
+    # def _get_element_
 
 if __name__ == "__main__":
     Application()
