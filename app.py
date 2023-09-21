@@ -108,20 +108,37 @@ class Application:
 
             # KEY INFO ( Class,Maker )
             element_keyinfo = element_tables[0]
+            keyinfo_tr = element_keyinfo.find_elements(By.XPATH,'.//tr')
+            vehicleClass = keyinfo_tr[2].find_element(By.XPATH,'.//a').text
+            vehicleMaker = keyinfo_tr[3].find_element(By.XPATH,'.//a').text
 
             # PERFORMANCE ( Top Speed )
-            element_keyinfo = element_tables[1]
+            element_performance = element_tables[1]
+            performance_tbody = element_performance.find_elements(By.XPATH,'.//tbody')
+            element_TS_Tr = performance_tbody[1].find_elements(By.XPATH,'.//tr')
+            element_TS_td = element_TS_Tr[1].find_elements(By.XPATH,'.//td')
+            vehicleTopSpeed = element_TS_td[1].find_element(By.XPATH,'.//span').text
+
 
             # META ( Model ID,Hash )
-            element_keyinfo = element_tables[3]
+            # element_meta = element_tables[3]
+            # meta_tr = element_meta.find_elements(By.XPATH,'.//tr')
+            # element_META_td = meta_tr[3].find_elements(By.XPATH,'.//td')
+            # vehicleModelID = element_META_td[1].find_elements(By.XPATH,'.//code').text
+            vehicleModelID = self.driver.find_elements(By.XPATH,'//td/code')[0].text
+
+            print(f"vehicleClass: {vehicleClass}")
+            print(f"vehicleMaker: {vehicleMaker}")
+            print(f"vehicleTopSpeed: {vehicleTopSpeed}")
+            print(f"vehicleModelID: {vehicleModelID}")
 
 
-            # self._download_vehicle_image(modelId=)
+            self._download_vehicle_image(modelId=vehicleModelID)
 
 
     def _download_vehicle_image(self,modelId):
 
-        element_img = self.driver.find_element(By.XPATH,'//div[@class="self-center swiper-slide swiper-slide-duplicate swiper-slide-active"]/figure/img')
+        element_img = self.driver.find_elements(By.XPATH,'//figure/img')[1]
         img_url = element_img.get_attribute('src')
         response = requests.get(img_url)
 
