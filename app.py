@@ -1,4 +1,6 @@
+import base64
 import os
+import re
 import time
 import json
 import random
@@ -14,7 +16,6 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
 
 class Application:
 
@@ -85,7 +86,6 @@ class Application:
 
             start = time.time()
             time.sleep(5)
-            self._click_pulldown_button()
             self._start_GettingDatas()
             stop = time.time()
 
@@ -93,74 +93,55 @@ class Application:
             print(f'[LOG] 処理にかかった時間：{result}s')
 
     def _start_GettingDatas(self):
-        self._get_element_container_of_vehicle_data()
-
-    def _get_element_container_of_vehicle_data(self):
 
         elements_data = self.driver.find_elements(By.XPATH,"//div[@class='grid gap-4 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4']/div")
+        print(len(elements_data))
+        vehicleURLList = self._get_all_vehicle_Url(elements_data=elements_data)
+
+        for i in range(len(vehicleURLList)):
+
+            print(vehicleURLList[i])
+            self.driver.get(vehicleURLList[i])
+            time.sleep(5)
+
+            element_tables = self.driver.find_elements(By.XPATH,'//div/table')
+
+            # KEY INFO ( Class,Maker )
+            element_keyinfo = element_tables[0]
+
+            # PERFORMANCE ( Top Speed )
+            element_keyinfo = element_tables[1]
+
+            # META ( Model ID,Hash )
+            element_keyinfo = element_tables[3]
+
+
+            # self._download_vehicle_image(modelId=)
+
+
+    def _download_vehicle_image(self,modelId):
+
+        element_img = self.driver.find_element(By.XPATH,'//div[@class="self-center swiper-slide swiper-slide-duplicate swiper-slide-active"]/figure/img')
+        img_url = element_img.get_attribute('src')
+        response = requests.get(img_url)
+
+        # 画像をフォルダに保存
+        filename = os.path.join(self.saveFolder, f"{modelId}.jpg")
+        with open(filename, "wb") as file:
+            file.write(response.content)
+
+    def _get_all_vehicle_Url(self,elements_data):
+
+        list = []
 
         for i in range(len(elements_data)):
 
             # 画像要素
             element_a = elements_data[i].find_element(By.TAG_NAME, 'a')
-            element_a_img = element_a.find_element(By.TAG_NAME, 'img')
-            element_a_span = element_a.find_element(By.TAG_NAME, 'span')
+            list.append(element_a.get_attribute('href'))
 
-            img_url = element_a_img.get_attribute('src')
+        return list
 
-            # isDataUrI = self._is_data_uri(img_url)
-
-            # ファイル名を生成（通常は画像のURLから取得します）
-            filename = os.path.join(self.saveFolder, f"{element_a_span.text}.jpg")
-
-            # 画像データをダウンロード
-            response = requests.get(img_url)
-
-            # 画像をフォルダに保存
-            with open(filename, "wb") as file:
-                file.write(response.content)
-
-
-
-
-            # # データ要素
-            # element_div = elements_data[i].find_element(By.TAG_NAME, 'div')
-            # element_div_s = element_div.find_elements(By.TAG_NAME,'div')
-
-            # クラス、ブランド、
-            # element_div_info_1 = element_div_s[0]
-
-
-
-            # element_div_info_2 = element_div_s[1]
-            # element_div_info_3 = element_div_s[2]
-
-
-
-
-
-
-
-
-
-    # def _get_element_children_tag_a(self):
-    #      element_a = self.driver.
-    #     return
-
-    # def _get_element_
-
-    
-    def _click_pulldown_button(self):
-        element_button = self.driver.find_elements(By.XPATH, '//button[@class="relative flex items-center justify-center gap-2 duration-75 h-6 w-6 rounded-full border border-neutral-200 bg-white hover:bg-neutral-50 active:bg-neutral-200 dark:border-neutral-600 dark:bg-neutral-750 dark:hover:border-neutral-500 dark:active:bg-neutral-800 has-tooltip"]')
-        element_button[0].click()
-        time.sleep(3)
-
-    def _is_data_uri(url):
-        # URLを解析
-        parsed_url = urlparse(url)
-
-        # スキームが"data"で始まるかどうかをチェック
-        return parsed_url.scheme == "data"
 
 if __name__ == "__main__":
     Application()
