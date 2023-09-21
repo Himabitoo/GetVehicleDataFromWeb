@@ -20,8 +20,9 @@ from selenium.webdriver.support import expected_conditions as EC
 class Application:
 
     def __init__(self):
-        self.WebUrl = "https://gtacars.net/gta5?q&page=1&filter_dlc=mpluxe2&filter_dlc=mpluxe&filter_dlc=mpheist&filter_dlc=mpchristmas2&filter_dlc=spupgrade&filter_dlc=mplts&filter_dlc=mppilot&filter_dlc=mpindependence&filter_dlc=mphipster&filter_dlc=mpbusiness2&filter_dlc=mpbusiness&filter_dlc=mpvalentines&filter_dlc=mpbeach&filter_dlc=TitleUpdate&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&filter_class=coupe&filter_class=motorcycle&filter_class=sedan&filter_class=sport&filter_class=sport_classic&filter_class=super&filter_class=suv&perPage=60"
+        self.WebUrl = "https://gtacars.net/gta5?q&page=2&filter_dlc=mpluxe2&filter_dlc=mpluxe&filter_dlc=mpheist&filter_dlc=mpchristmas2&filter_dlc=spupgrade&filter_dlc=mplts&filter_dlc=mppilot&filter_dlc=mpindependence&filter_dlc=mphipster&filter_dlc=mpbusiness2&filter_dlc=mpbusiness&filter_dlc=mpvalentines&filter_dlc=mpbeach&filter_dlc=TitleUpdate&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&filter_class=coupe&filter_class=motorcycle&filter_class=sedan&filter_class=sport&filter_class=sport_classic&filter_class=super&filter_class=suv&perPage=60"
         self.saveFolder = "./images/"
+        self.jsonFile = "./data/vehicles.json"
         self._driver_start()
 
     def _driver_start(self):
@@ -94,6 +95,8 @@ class Application:
 
     def _start_GettingDatas(self):
 
+        json_data = []
+
         elements_data = self.driver.find_elements(By.XPATH,"//div[@class='grid gap-4 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4']/div")
         print(len(elements_data))
         vehicleURLList = self._get_all_vehicle_Url(elements_data=elements_data)
@@ -118,7 +121,7 @@ class Application:
             element_TS_Tr = performance_tbody[1].find_elements(By.XPATH,'.//tr')
             element_TS_td = element_TS_Tr[1].find_elements(By.XPATH,'.//td')
             vehicleTopSpeed = element_TS_td[1].find_element(By.XPATH,'.//span').text
-
+            vehicleTopSpeed = vehicleTopSpeed.replace(' mph','')
 
             # META ( Model ID,Hash )
             # element_meta = element_tables[3]
@@ -127,13 +130,38 @@ class Application:
             # vehicleModelID = element_META_td[1].find_elements(By.XPATH,'.//code').text
             vehicleModelID = self.driver.find_elements(By.XPATH,'//td/code')[0].text
 
+            vehiclePrice = self.driver.find_elements(By.XPATH,'//div/p/span')[1].text
+            vehiclePrice = vehiclePrice.replace('$ ','')
+            vehiclePrice = vehiclePrice.replace(',','')
+
             print(f"vehicleClass: {vehicleClass}")
             print(f"vehicleMaker: {vehicleMaker}")
             print(f"vehicleTopSpeed: {vehicleTopSpeed}")
             print(f"vehicleModelID: {vehicleModelID}")
+            print(f"vehiclePrice: {vehiclePrice}")
 
+            # self._download_vehicle_image(modelId=vehicleModelID)
 
-            self._download_vehicle_image(modelId=vehicleModelID)
+            # JSONデータを作成（例：ディクショナリ）
+            new_data = {
+                "model": vehicleModelID,
+                "class": vehicleClass,
+                "maker": vehicleMaker,
+                "price": int(vehiclePrice),
+                "topspeed": float(vehicleTopSpeed),
+            }
+
+            json_data.append(new_data)
+
+        # JSONデータをJSON文字列に変換
+        json_str = json.dumps(json_data, indent=4)  # インデントを追加して可読性を向上させる
+
+        # JSONファイルに書き込む
+        with open(self.jsonFile, "w") as json_file:
+            json_file.write(json_str)
+
+    print("JSONファイルが生成されました。")
+
 
 
     def _download_vehicle_image(self,modelId):
