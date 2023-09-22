@@ -10,6 +10,8 @@ import tkinter as tk
 from selenium import webdriver
 from urllib.parse import urlparse
 from subprocess import CREATE_NO_WINDOW
+
+from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome import service as fs
 from selenium.webdriver.chrome.options import Options
@@ -115,13 +117,26 @@ class Application:
             vehicleClass = keyinfo_tr[2].find_element(By.XPATH,'.//a').text
             vehicleMaker = keyinfo_tr[3].find_element(By.XPATH,'.//a').text
 
+
             # PERFORMANCE ( Top Speed )
-            element_performance = element_tables[1]
-            performance_tbody = element_performance.find_elements(By.XPATH,'.//tbody')
-            element_TS_Tr = performance_tbody[1].find_elements(By.XPATH,'.//tr')
-            element_TS_td = element_TS_Tr[1].find_elements(By.XPATH,'.//td')
-            vehicleTopSpeed = element_TS_td[1].find_element(By.XPATH,'.//span').text
-            vehicleTopSpeed = vehicleTopSpeed.replace(' mph','')
+            # element_performance = element_tables[1]
+            # performance_tbody = element_performance.find_elements(By.XPATH,'.//tbody')
+            # element_TS_Tr = performance_tbody[1].find_elements(By.XPATH,'.//tr')
+            #
+            # element_TS_td = element_TS_Tr[1].find_elements(By.XPATH,'.//td')
+            # vehicleTopSpeed = element_TS_td[1].find_element(By.XPATH,'.//span').text
+            try:
+                element_TS = self.driver.find_element(By.XPATH,'//span[contains(text(),"mph")]')
+
+                if element_TS:  # element_TS_tdが空でない場合、要素が存在する
+                    vehicleTopSpeed = element_TS.text
+                    vehicleTopSpeed = vehicleTopSpeed.replace(' mph','')
+                else:
+                    vehicleTopSpeed = 0
+
+            except NoSuchElementException:
+                vehicleTopSpeed = 0
+
 
             # META ( Model ID,Hash )
             # element_meta = element_tables[3]
@@ -130,17 +145,32 @@ class Application:
             # vehicleModelID = element_META_td[1].find_elements(By.XPATH,'.//code').text
             vehicleModelID = self.driver.find_elements(By.XPATH,'//td/code')[0].text
 
-            vehiclePrice = self.driver.find_elements(By.XPATH,'//div/p/span')[1].text
-            vehiclePrice = vehiclePrice.replace('$ ','')
-            vehiclePrice = vehiclePrice.replace(',','')
+            # vehiclePrice = self.driver.find_elements(By.XPATH,"//span[contains(text(),'$')]")[0].text
+            #
+            # vehiclePrice = vehiclePrice.replace('$ ','')
+            # vehiclePrice = vehiclePrice.replace(',','')
 
+            try:
+                vehiclePrice_element = self.driver.find_elements(By.XPATH, "//span[contains(text(),'$')]")[0]
+
+                if vehiclePrice_element:
+                    vehiclePrice = vehiclePrice_element.text
+                    vehiclePrice = vehiclePrice.replace('$ ', '')
+                    vehiclePrice = vehiclePrice.replace(',', '')
+                else:
+                    vehiclePrice = 0
+
+            except NoSuchElementException:
+                vehiclePrice = 0
+
+
+            print(f"vehicleModelID: {vehicleModelID}")
             print(f"vehicleClass: {vehicleClass}")
             print(f"vehicleMaker: {vehicleMaker}")
             print(f"vehicleTopSpeed: {vehicleTopSpeed}")
-            print(f"vehicleModelID: {vehicleModelID}")
             print(f"vehiclePrice: {vehiclePrice}")
 
-            # self._download_vehicle_image(modelId=vehicleModelID)
+            self._download_vehicle_image(modelId=vehicleModelID)
 
             # JSONデータを作成（例：ディクショナリ）
             new_data = {
