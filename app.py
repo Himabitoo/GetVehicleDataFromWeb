@@ -151,17 +151,20 @@ class Application:
             # vehiclePrice = vehiclePrice.replace(',','')
 
             try:
-                vehiclePrice_element = self.driver.find_elements(By.XPATH, "//span[contains(text(),'$')]")[0]
+                vehiclePrice_elements = self.driver.find_elements(By.XPATH, "//span[contains(text(),'$')]")
 
-                if vehiclePrice_element:
+                if vehiclePrice_elements:
+                    vehiclePrice_element = vehiclePrice_elements[0]
                     vehiclePrice = vehiclePrice_element.text
                     vehiclePrice = vehiclePrice.replace('$ ', '')
+                    vehiclePrice = vehiclePrice.replace('+ Full Coverage', '')
                     vehiclePrice = vehiclePrice.replace(',', '')
                 else:
                     vehiclePrice = 0
 
             except NoSuchElementException:
                 vehiclePrice = 0
+
 
 
             print(f"vehicleModelID: {vehicleModelID}")
@@ -196,7 +199,12 @@ class Application:
 
     def _download_vehicle_image(self,modelId):
 
-        element_img = self.driver.find_elements(By.XPATH,'//figure/img')[1]
+        element_img = self.driver.find_elements(By.XPATH,'//figure/img')
+        if len(element_img) < 2 :
+            element_img = self.driver.find_elements(By.XPATH,'//figure/img')[0]
+        else:
+            element_img = self.driver.find_elements(By.XPATH,'//figure/img')[1]
+
         img_url = element_img.get_attribute('src')
         response = requests.get(img_url)
 
