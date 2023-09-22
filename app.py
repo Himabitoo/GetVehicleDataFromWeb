@@ -22,12 +22,16 @@ from selenium.webdriver.support import expected_conditions as EC
 class Application:
 
     def __init__(self):
-        self.WebUrl = "https://gtacars.net/gta5?q&page=2&filter_dlc=mpluxe2&filter_dlc=mpluxe&filter_dlc=mpheist&filter_dlc=mpchristmas2&filter_dlc=spupgrade&filter_dlc=mplts&filter_dlc=mppilot&filter_dlc=mpindependence&filter_dlc=mphipster&filter_dlc=mpbusiness2&filter_dlc=mpbusiness&filter_dlc=mpvalentines&filter_dlc=mpbeach&filter_dlc=TitleUpdate&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&filter_class=coupe&filter_class=motorcycle&filter_class=sedan&filter_class=sport&filter_class=sport_classic&filter_class=super&filter_class=suv&perPage=60"
+        self.WebUrl = [
+            "https://gtacars.net/gta5?q&page=2&filter_dlc=mpluxe2&filter_dlc=mpluxe&filter_dlc=mpheist&filter_dlc=mpchristmas2&filter_dlc=spupgrade&filter_dlc=mplts&filter_dlc=mppilot&filter_dlc=mpindependence&filter_dlc=mphipster&filter_dlc=mpbusiness2&filter_dlc=mpbusiness&filter_dlc=mpvalentines&filter_dlc=mpbeach&filter_dlc=TitleUpdate&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&filter_class=coupe&filter_class=motorcycle&filter_class=sedan&filter_class=sport&filter_class=sport_classic&filter_class=super&filter_class=suv&perPage=60"
+        ]
         self.saveFolder = "./images/"
         self.jsonFile = "./data/vehicles.json"
-        self._driver_start()
 
-    def _driver_start(self):
+        for i in range(len(self.WebUrl)):
+            self._driver_start(self.WebUrl[i])
+
+    def _driver_start(self,WebUrl):
         start = time.time()
 
         # UA
@@ -74,8 +78,8 @@ class Application:
 
         # エラーがおきる可能性があるためTRY
         try:
-            print(f'[LOG]{self.WebUrl}' + 'に接続...')
-            self.driver.get(self.WebUrl)
+            print(f'[LOG]{WebUrl}' + 'に接続...')
+            self.driver.get(WebUrl)
 
         # エラーが起きた時の処理
         except Exception as e:
@@ -181,7 +185,7 @@ class Application:
                 "class": vehicleClass,
                 "maker": vehicleMaker,
                 "price": int(vehiclePrice),
-                "topspeed": float(vehicleTopSpeed),
+                "top-speed": float(vehicleTopSpeed),
             }
 
             json_data.append(new_data)
