@@ -123,11 +123,11 @@ class Application:
 
             element_tables = self.driver.find_elements(By.XPATH,'//div/table')
 
-            # KEY INFO ( Class,Maker )
+            # KEY INFO ( Class,Brand )
             element_keyinfo = element_tables[0]
             keyinfo_tr = element_keyinfo.find_elements(By.XPATH,'.//tr')
             vehicleClass = keyinfo_tr[2].find_element(By.XPATH,'.//a').text
-            vehicleMaker = keyinfo_tr[3].find_element(By.XPATH,'.//a').text
+            vehicleBrand = keyinfo_tr[3].find_element(By.XPATH,'.//a').text
 
             try:
                 element_TS = self.driver.find_element(By.XPATH,'//span[contains(text(),"mph")]')
@@ -167,7 +167,7 @@ class Application:
             print(f"vehicleName: {vehicleName}")
             print(f"vehicleModelID: {vehicleModelID}")
             print(f"vehicleClass: {vehicleClass}")
-            print(f"vehicleMaker: {vehicleMaker}")
+            print(f"vehicleBrand: {vehicleBrand}")
             print(f"vehicleTopSpeed: {vehicleTopSpeed}")
             print(f"vehiclePrice: {display_price}")
 
@@ -178,7 +178,7 @@ class Application:
                 "name": vehicleName,
                 "model": vehicleModelID,
                 "class": vehicleClass,
-                "maker": vehicleMaker,
+                "brand": vehicleBrand,
                 "price": int(vehiclePrice),
                 "top-speed": float(vehicleTopSpeed),
             }
