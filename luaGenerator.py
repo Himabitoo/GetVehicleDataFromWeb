@@ -15,7 +15,7 @@ templateVehicle = '''
     ['model'] = '#vehicleModel',
     ['price'] = #vehiclePrice,
     ['category'] = '#vehicleCategory',
-    ['categoryLabel'] = '#vehicleCategoryLabel',
+    ['categoryLabel'] = '#vehicleCL',
     ['hash'] = `#vehicleHash`,
     ['shop'] = '#vehicleShop',
 },\n
@@ -108,42 +108,42 @@ for i in range(len(json_files)):
         # Category Label 設定
         match vehicleCategory:
             case "compacts":
-                vehicleCategory = "Compacts"
+                vehicleCategoryLabel = "Compacts"
 
             case "coupes":
-                vehicleCategory = "Coupes"
+                vehicleCategoryLabel = "Coupes"
 
             case "cycles":
-                vehicleCategory = "Cycles"
+                vehicleCategoryLabel = "Cycles"
 
             case "motorcycles":
-                vehicleCategory = "Motorcycles"
+                vehicleCategoryLabel = "Motorcycles"
 
             case "offroad":
-                vehicleCategory = "Off Road"
+                vehicleCategoryLabel = "Off Road"
 
             case "suvs":
-                vehicleCategory = "SUVs"
+                vehicleCategoryLabel = "SUVs"
 
             case "sedans":
-                vehicleCategory = "Sedans"
+                vehicleCategoryLabel = "Sedans"
 
             case "sportsclassics":
-                vehicleCategory = "Sports Classics"
+                vehicleCategoryLabel = "Sports Classics"
 
             case "sports":
-                vehicleCategory = "Sports"
+                vehicleCategoryLabel = "Sports"
 
             case "super":
-                vehicleCategory = "Super"
+                vehicleCategoryLabel = "Super"
 
             # case "Emergency":
-            #     vehicleCategory = "coupes"
+            #     vehicleCategoryLabel = "coupes"
             #
             # case "Coupes":
-            #     vehicleCategory = "coupes"
+            #     vehicleCategoryLabel = "coupes"
             # case "Coupes":
-            #     vehicleCategory = "coupes"
+            #     vehicleCategoryLabel = "coupes"
 
 
         # 売る場所のの設定
@@ -161,12 +161,12 @@ for i in range(len(json_files)):
         copyTemplate = templateVehicle
 
         newTemplate = copyTemplate.replace('#vehicleHash',vehicleHash)
-        newTemplate = copyTemplate.replace('#vehicleBrand',vehicleBrand)
-        newTemplate = copyTemplate.replace('#vehicleModel',vehicleModel)
-        newTemplate = copyTemplate.replace('#vehiclePrice',str(vehiclePrice))
-        newTemplate = copyTemplate.replace('#vehicleCategory',vehicleCategory)
-        newTemplate = copyTemplate.replace('#vehicleCategoryLabel',vehicleCategoryLabel)
-        newTemplate = copyTemplate.replace('#vehicleShop',vehicleShop)
+        newTemplate = newTemplate.replace('#vehicleBrand',vehicleBrand)
+        newTemplate = newTemplate.replace('#vehicleModel',vehicleModel)
+        newTemplate = newTemplate.replace('#vehiclePrice',str(vehiclePrice))
+        newTemplate = newTemplate.replace('#vehicleCategory',vehicleCategory)
+        newTemplate = newTemplate.replace('#vehicleCL',vehicleCategoryLabel)
+        newTemplate = newTemplate.replace('#vehicleShop',vehicleShop)
 
         print(newTemplate)
         print("\n")
