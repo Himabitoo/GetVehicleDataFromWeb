@@ -23,7 +23,8 @@ templateVehicle = '''
 
 ##########################################
 
-jsonFolderPath = './data/'
+jsonFolderPath = './data/json/'
+luaFolderPath = './data/lua/'
 
 # フォルダ内のすべてのファイルを取得
 all_files = os.listdir(jsonFolderPath)
@@ -31,7 +32,10 @@ all_files = os.listdir(jsonFolderPath)
 # JSONファイルのみを抽出
 json_files = [os.path.join(jsonFolderPath, file) for file in all_files if file.endswith(".json")]
 
-for json_file in json_files:
+for i in range(len(json_files)):
+
+    json_file = json_files[i]
+    file_name_without_extension = os.path.splitext(json_file)[1]
 
     # 既存の JSON ファイルを読み込む
     with open(json_file, "r") as jf:
@@ -46,7 +50,7 @@ for json_file in json_files:
         vehiclePrice = item['price']
         vehicleCategory = item['class']
         vehicleCategoryLabel = item['class']
-        vehicleHash = item['hash']
+        vehicleHash = item['model']
         vehicleShop = ""
 
         # luaファイル生成前の代入する値の前処理
@@ -142,11 +146,11 @@ for json_file in json_files:
 
         # 売る場所のの設定
         shopPDM = [ 'compacts', 'coupes', 'suvs', 'sedans', 'sportsclassics', ]
-        shopLuxury = ['sports', 'super', ]
+        shopLUXURY = ['sports', 'super', ]
 
         if vehicleCategory in shopPDM:
             vehicleShop = 'pdm'
-        elif vehicleCategory in shopLuxury:
+        elif vehicleCategory in shopLUXURY:
             vehicleShop = 'luxury'
         else:
             vehicleShop = '??'
@@ -156,24 +160,11 @@ for json_file in json_files:
         newTemplate.replace('#vehicleHash',vehicleHash)
         newTemplate.replace('#vehicleBrand',vehicleBrand)
         newTemplate.replace('#vehicleModel',vehicleModel)
-        newTemplate.replace('#vehiclePrice',vehiclePrice)
+        newTemplate.replace('#vehiclePrice',str(vehiclePrice))
         newTemplate.replace('#vehicleCategory',vehicleCategory)
         newTemplate.replace('#vehicleCategoryLabel',vehicleCategoryLabel)
         newTemplate.replace('#vehicleShop',vehicleShop)
 
         # 書き込み
-
-
-
-# templateVehicle = '''
-# ['#vehicleHash'] = {
-#     ['name'] = '#vehicleName',
-#     ['brand'] = '#vehicleBrand',
-#     ['model'] = '#vehicleModel',
-#     ['price'] = #vehiclePrice,
-#     ['category'] = '#vehicleCategory',
-#     ['categoryLabel'] = '#vehicleCategoryLabel',
-#     ['hash'] = `#vehicleHash`,
-#     ['shop'] = '#vehicleShop',
-# },
-# '''
+        with open(f"{luaFolderPath}{file_name_without_extension}.lua","w") as luafile:
+            luafile.write(newTemplate)
