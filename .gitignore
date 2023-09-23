@@ -1,4 +1,4 @@
 getVehiclesDataFromWeb.iml
-*.jpg
-*.json
-*.lua
+data/*.jpg
+data/*.json
+data/*.lua
