@@ -1,6 +1,4 @@
-import base64
 import os
-import re
 import time
 import json
 import random
@@ -8,7 +6,6 @@ import requests
 import tkinter as tk
 
 from selenium import webdriver
-from urllib.parse import urlparse
 from subprocess import CREATE_NO_WINDOW
 
 from selenium.common import NoSuchElementException
@@ -17,21 +14,22 @@ from selenium.webdriver.chrome import service as fs
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 class Application:
 
     def __init__(self):
         self.WebUrl = [
-            "https://gtacars.net/gta5?q&page=2&filter_dlc=mpluxe2&filter_dlc=mpluxe&filter_dlc=mpheist&filter_dlc=mpchristmas2&filter_dlc=spupgrade&filter_dlc=mplts&filter_dlc=mppilot&filter_dlc=mpindependence&filter_dlc=mphipster&filter_dlc=mpbusiness2&filter_dlc=mpbusiness&filter_dlc=mpvalentines&filter_dlc=mpbeach&filter_dlc=TitleUpdate&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&filter_class=coupe&filter_class=motorcycle&filter_class=sedan&filter_class=sport&filter_class=sport_classic&filter_class=super&filter_class=suv&perPage=60"
+            "https://gtacars.net/gta5?q&page=1&filter_dlc=mpluxe2&filter_dlc=mpluxe&filter_dlc=mpheist&filter_dlc=mpchristmas2&filter_dlc=spupgrade&filter_dlc=mplts&filter_dlc=mppilot&filter_dlc=mpindependence&filter_dlc=mphipster&filter_dlc=mpbusiness2&filter_dlc=mpbusiness&filter_dlc=mpvalentines&filter_dlc=mpbeach&filter_dlc=TitleUpdate&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&filter_class=coupe&filter_class=motorcycle&filter_class=sedan&filter_class=sport&filter_class=sport_classic&filter_class=super&filter_class=suv&perPage=60",
+            "https://gtacars.net/gta5?q&page=2&filter_dlc=mpluxe2&filter_dlc=mpluxe&filter_dlc=mpheist&filter_dlc=mpchristmas2&filter_dlc=spupgrade&filter_dlc=mplts&filter_dlc=mppilot&filter_dlc=mpindependence&filter_dlc=mphipster&filter_dlc=mpbusiness2&filter_dlc=mpbusiness&filter_dlc=mpvalentines&filter_dlc=mpbeach&filter_dlc=TitleUpdate&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&filter_class=coupe&filter_class=motorcycle&filter_class=sedan&filter_class=sport&filter_class=sport_classic&filter_class=super&filter_class=suv&perPage=60",
+
         ]
         self.saveFolder = "./images/"
-        self.jsonFile = "./data/vehicles.json"
+        self.jsonFolder = "./data/"
 
         for i in range(len(self.WebUrl)):
-            self._driver_start(self.WebUrl[i])
+            self._driver_start(self.WebUrl[i],i)
 
-    def _driver_start(self,WebUrl):
+    def _driver_start(self,WebUrl,count):
         start = time.time()
 
         # UA
@@ -55,7 +53,6 @@ class Application:
         option.add_argument('--disable-dev-shm-usage')
         option.add_argument('--use-fake-ui-for-media-stream')
         option.add_argument('--use-fake-device-for-media-stream')
-        # option.add_argument('--blink-settings=imagesEnabled=false')
         option.add_experimental_option('useAutomationExtension', False)
         option.add_experimental_option("excludeSwitches", ["enable-logging"])
         option.page_load_strategy = 'eager'
@@ -93,13 +90,13 @@ class Application:
 
             start = time.time()
             time.sleep(5)
-            self._start_GettingDatas()
+            self._start_GettingDatas(count)
             stop = time.time()
 
             result = stop - start
             print(f'[LOG] 処理にかかった時間：{result}s')
 
-    def _start_GettingDatas(self):
+    def _start_GettingDatas(self,count):
 
         json_data = []
 
@@ -121,14 +118,6 @@ class Application:
             vehicleClass = keyinfo_tr[2].find_element(By.XPATH,'.//a').text
             vehicleMaker = keyinfo_tr[3].find_element(By.XPATH,'.//a').text
 
-
-            # PERFORMANCE ( Top Speed )
-            # element_performance = element_tables[1]
-            # performance_tbody = element_performance.find_elements(By.XPATH,'.//tbody')
-            # element_TS_Tr = performance_tbody[1].find_elements(By.XPATH,'.//tr')
-            #
-            # element_TS_td = element_TS_Tr[1].find_elements(By.XPATH,'.//td')
-            # vehicleTopSpeed = element_TS_td[1].find_element(By.XPATH,'.//span').text
             try:
                 element_TS = self.driver.find_element(By.XPATH,'//span[contains(text(),"mph")]')
 
@@ -141,19 +130,11 @@ class Application:
             except NoSuchElementException:
                 vehicleTopSpeed = 0
 
-
-            # META ( Model ID,Hash )
-            # element_meta = element_tables[3]
-            # meta_tr = element_meta.find_elements(By.XPATH,'.//tr')
-            # element_META_td = meta_tr[3].find_elements(By.XPATH,'.//td')
-            # vehicleModelID = element_META_td[1].find_elements(By.XPATH,'.//code').text
+            # Model Id
             vehicleModelID = self.driver.find_elements(By.XPATH,'//td/code')[0].text
 
-            # vehiclePrice = self.driver.find_elements(By.XPATH,"//span[contains(text(),'$')]")[0].text
-            #
-            # vehiclePrice = vehiclePrice.replace('$ ','')
-            # vehiclePrice = vehiclePrice.replace(',','')
 
+            # Price of Vehicle
             try:
                 vehiclePrice_elements = self.driver.find_elements(By.XPATH, "//span[contains(text(),'$')]")
 
@@ -179,7 +160,7 @@ class Application:
 
             self._download_vehicle_image(modelId=vehicleModelID)
 
-            # JSONデータを作成（例：ディクショナリ）
+            # new {}
             new_data = {
                 "model": vehicleModelID,
                 "class": vehicleClass,
@@ -194,7 +175,7 @@ class Application:
         json_str = json.dumps(json_data, indent=4)  # インデントを追加して可読性を向上させる
 
         # JSONファイルに書き込む
-        with open(self.jsonFile, "w") as json_file:
+        with open(f"{self.jsonFolder}vehicles-{count + 1}.json", "w") as json_file:
             json_file.write(json_str)
 
     print("JSONファイルが生成されました。")
@@ -228,7 +209,6 @@ class Application:
             list.append(element_a.get_attribute('href'))
 
         return list
-
 
 if __name__ == "__main__":
     Application()
