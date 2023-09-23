@@ -18,7 +18,7 @@ templateVehicle = '''
     ['categoryLabel'] = '#vehicleCategoryLabel',
     ['hash'] = `#vehicleHash`,
     ['shop'] = '#vehicleShop',
-},
+},\n
 '''
 
 ##########################################
@@ -31,6 +31,8 @@ all_files = os.listdir(jsonFolderPath)
 
 # JSONファイルのみを抽出
 json_files = [os.path.join(jsonFolderPath, file) for file in all_files if file.endswith(".json")]
+
+newTemplateList = []
 
 for i in range(len(json_files)):
 
@@ -156,15 +158,22 @@ for i in range(len(json_files)):
             vehicleShop = '??'
 
         # 置き換え
-        newTemplate = templateVehicle
-        newTemplate.replace('#vehicleHash',vehicleHash)
-        newTemplate.replace('#vehicleBrand',vehicleBrand)
-        newTemplate.replace('#vehicleModel',vehicleModel)
-        newTemplate.replace('#vehiclePrice',str(vehiclePrice))
-        newTemplate.replace('#vehicleCategory',vehicleCategory)
-        newTemplate.replace('#vehicleCategoryLabel',vehicleCategoryLabel)
-        newTemplate.replace('#vehicleShop',vehicleShop)
+        copyTemplate = templateVehicle
 
-        # 書き込み
-        with open(f"{luaFolderPath}{file_name_without_extension}.lua","w") as luafile:
-            luafile.write(newTemplate)
+        newTemplate = copyTemplate.replace('#vehicleHash',vehicleHash)
+        newTemplate = copyTemplate.replace('#vehicleBrand',vehicleBrand)
+        newTemplate = copyTemplate.replace('#vehicleModel',vehicleModel)
+        newTemplate = copyTemplate.replace('#vehiclePrice',str(vehiclePrice))
+        newTemplate = copyTemplate.replace('#vehicleCategory',vehicleCategory)
+        newTemplate = copyTemplate.replace('#vehicleCategoryLabel',vehicleCategoryLabel)
+        newTemplate = copyTemplate.replace('#vehicleShop',vehicleShop)
+
+        print(newTemplate)
+        print("\n")
+
+        newTemplateList.append(newTemplate)
+
+    # 書き込み
+    with open(f"{luaFolderPath}vehicles.lua","a") as luafile:
+        for i in range(len(newTemplateList)):
+            luafile.write(newTemplateList[i])
