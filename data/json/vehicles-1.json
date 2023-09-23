@@ -1,0 +1,194 @@
+[
+    {
+        "name": "T20",
+        "model": "t20",
+        "class": "Supers",
+        "brand": "Progen",
+        "price": 2200000,
+        "top-speed": 122.25
+    },
+    {
+        "name": "Osiris",
+        "model": "osiris",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 1950000,
+        "top-speed": 122.0
+    },
+    {
+        "name": "Adder",
+        "model": "adder",
+        "class": "Supers",
+        "brand": "Truffade",
+        "price": 1000000,
+        "top-speed": 124.75
+    },
+    {
+        "name": "Stirling GT",
+        "model": "feltzer3",
+        "class": "Sports Classics",
+        "brand": "Benefactor",
+        "price": 975000,
+        "top-speed": 112.0
+    },
+    {
+        "name": "Z-Type",
+        "model": "ztype",
+        "class": "Sports Classics",
+        "brand": "Truffade",
+        "price": 950000,
+        "top-speed": 126.25
+    },
+    {
+        "name": "Casco",
+        "model": "casco",
+        "class": "Sports Classics",
+        "brand": "Lampadati",
+        "price": 904400,
+        "top-speed": 120.0
+    },
+    {
+        "name": "Stinger GT",
+        "model": "stingergt",
+        "class": "Sports Classics",
+        "brand": "Grotti",
+        "price": 875000,
+        "top-speed": 112.0
+    },
+    {
+        "name": "Stinger",
+        "model": "stinger",
+        "class": "Sports Classics",
+        "brand": "Grotti",
+        "price": 850000,
+        "top-speed": 112.0
+    },
+    {
+        "name": "Windsor",
+        "model": "windsor",
+        "class": "Coupes",
+        "brand": "Enus",
+        "price": 845000,
+        "top-speed": 118.0
+    },
+    {
+        "name": "Entity XF",
+        "model": "entityxf",
+        "class": "Supers",
+        "brand": "Overflod",
+        "price": 795000,
+        "top-speed": 121.5
+    },
+    {
+        "name": "Roosevelt",
+        "model": "btype",
+        "class": "Sports Classics",
+        "brand": "Albany",
+        "price": 750000,
+        "top-speed": 98.5
+    },
+    {
+        "name": "Zentorno",
+        "model": "zentorno",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 725000,
+        "top-speed": 122.0
+    },
+    {
+        "name": "Kuruma (Armored)",
+        "model": "kuruma2",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 698250,
+        "top-speed": 109.75
+    },
+    {
+        "name": "Coquette Classic",
+        "model": "coquette2",
+        "class": "Sports Classics",
+        "brand": "Invetero",
+        "price": 395000,
+        "top-speed": 118.0
+    },
+    {
+        "name": "Cheetah",
+        "model": "cheetah",
+        "class": "Supers",
+        "brand": "Grotti",
+        "price": 650000,
+        "top-speed": 120.25
+    },
+    {
+        "name": "Sprunk Buffalo",
+        "model": "buffalo3",
+        "class": "Sports",
+        "brand": "Bravado",
+        "price": 535000,
+        "top-speed": 116.0
+    },
+    {
+        "name": "Turismo R",
+        "model": "turismor",
+        "class": "Supers",
+        "brand": "Grotti",
+        "price": 500000,
+        "top-speed": 121.75
+    },
+    {
+        "name": "Monroe",
+        "model": "monroe",
+        "class": "Sports Classics",
+        "brand": "Pegassi",
+        "price": 490000,
+        "top-speed": 122.0
+    },
+    {
+        "name": "Furore GT",
+        "model": "furoregt",
+        "class": "Sports",
+        "brand": "Lampadati",
+        "price": 448000,
+        "top-speed": 120.25
+    },
+    {
+        "name": "Infernus",
+        "model": "infernus",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 440000,
+        "top-speed": 117.75
+    },
+    {
+        "name": "Pigalle",
+        "model": "pigalle",
+        "class": "Sports Classics",
+        "brand": "Lampadati",
+        "price": 400000,
+        "top-speed": 121.25
+    },
+    {
+        "name": "Massacro (Racecar)",
+        "model": "massacro2",
+        "class": "Sports",
+        "brand": "Dewbauchee",
+        "price": 385000,
+        "top-speed": 121.75
+    },
+    {
+        "name": "JB 700",
+        "model": "jb700",
+        "class": "Sports Classics",
+        "brand": "Dewbauchee",
+        "price": 350000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "Jester (Racecar)",
+        "model": "jester2",
+        "class": "Sports",
+        "brand": "Dinka",
+        "price": 350000,
+        "top-speed": 119.25
+    }
+]

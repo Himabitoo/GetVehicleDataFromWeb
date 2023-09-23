@@ -19,8 +19,7 @@ class Application:
 
     def __init__(self):
         self.WebUrl = [
-            "https://gtacars.net/gta5?q&page=1&filter_dlc=mpluxe2&filter_dlc=mpluxe&filter_dlc=mpheist&filter_dlc=mpchristmas2&filter_dlc=spupgrade&filter_dlc=mplts&filter_dlc=mppilot&filter_dlc=mpindependence&filter_dlc=mphipster&filter_dlc=mpbusiness2&filter_dlc=mpbusiness&filter_dlc=mpvalentines&filter_dlc=mpbeach&filter_dlc=TitleUpdate&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&filter_class=coupe&filter_class=motorcycle&filter_class=sedan&filter_class=sport&filter_class=sport_classic&filter_class=super&filter_class=suv&perPage=60",
-            "https://gtacars.net/gta5?q&page=2&filter_dlc=mpluxe2&filter_dlc=mpluxe&filter_dlc=mpheist&filter_dlc=mpchristmas2&filter_dlc=spupgrade&filter_dlc=mplts&filter_dlc=mppilot&filter_dlc=mpindependence&filter_dlc=mphipster&filter_dlc=mpbusiness2&filter_dlc=mpbusiness&filter_dlc=mpvalentines&filter_dlc=mpbeach&filter_dlc=TitleUpdate&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&filter_class=coupe&filter_class=motorcycle&filter_class=sedan&filter_class=sport&filter_class=sport_classic&filter_class=super&filter_class=suv&perPage=60",
+            "https://gtacars.net/gta5?q&page=1&filter_dlc=mpluxe2&filter_dlc=mpluxe&filter_dlc=mpheist&filter_dlc=mpchristmas2&filter_dlc=spupgrade&filter_dlc=mplts&filter_dlc=mppilot&filter_dlc=mpindependence&filter_dlc=mphipster&filter_dlc=mpbusiness2&filter_dlc=mpbusiness&filter_dlc=mpvalentines&filter_dlc=mpbeach&filter_dlc=TitleUpdate&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&filter_class=coupe&filter_class=motorcycle&filter_class=sedan&filter_class=sport&filter_class=sport_classic&filter_class=super&filter_class=suv&perPage=24",
         ]
         self.saveFolder = "./data/images/"
         self.jsonFolder = "./data/json/"
@@ -57,7 +56,7 @@ class Application:
         option.page_load_strategy = 'eager'
 
         try:
-            service = fs.Service(executable_path=ChromeDriverManager().install())
+            service = fs.Service(executable_path='./chromedriver.exe')
             service.creation_flags = CREATE_NO_WINDOW
         except Exception as e:
 
@@ -208,7 +207,7 @@ class Application:
         response = requests.get(img_url)
 
         # 画像をフォルダに保存
-        filename = os.path.join(self.saveFolder, f"{modelId}.jpg")
+        filename = os.path.join(self.saveFolder, f"{modelId}.png")
         with open(filename, "wb") as file:
             file.write(response.content)
 

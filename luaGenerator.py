@@ -163,7 +163,8 @@ for i in range(len(json_files)):
         # 置き換え
         copyTemplate = templateVehicle
 
-        newTemplate = copyTemplate.replace('#vehicleHash',vehicleHash)
+        newTemplate = copyTemplate.replace('#vehicleName',vehicleName)
+        newTemplate = newTemplate.replace('#vehicleHash',vehicleHash)
         newTemplate = newTemplate.replace('#vehicleBrand',vehicleBrand)
         newTemplate = newTemplate.replace('#vehicleModel',vehicleModel)
         newTemplate = newTemplate.replace('#vehiclePrice',str(vehiclePrice))
