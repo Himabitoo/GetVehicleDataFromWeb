@@ -25,6 +25,9 @@ class Application:
         self.saveFolder = "./images/"
         self.jsonFolder = "./data/"
 
+        # price 倍率
+        self.magnification = 129
+
         for i in range(len(self.WebUrl)):
             self._driver_start(self.WebUrl[i],i)
 
@@ -150,12 +153,13 @@ class Application:
                 vehiclePrice = 0
 
 
+            display_price = "{:,}".format(int(vehiclePrice) * self.magnification)
 
             print(f"vehicleModelID: {vehicleModelID}")
             print(f"vehicleClass: {vehicleClass}")
             print(f"vehicleMaker: {vehicleMaker}")
             print(f"vehicleTopSpeed: {vehicleTopSpeed}")
-            print(f"vehiclePrice: {vehiclePrice}")
+            print(f"vehiclePrice: {display_price}")
 
             self._download_vehicle_image(modelId=vehicleModelID)
 
@@ -164,7 +168,7 @@ class Application:
                 "model": vehicleModelID,
                 "class": vehicleClass,
                 "maker": vehicleMaker,
-                "price": int(vehiclePrice),
+                "price": int(vehiclePrice) * self.magnification,
                 "top-speed": float(vehicleTopSpeed),
             }
 
