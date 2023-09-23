@@ -112,6 +112,18 @@ class Application:
             self.driver.get(vehicleURLList[i])
             time.sleep(5)
 
+            # VEHICLE NAME
+            try:
+                element_name = self.driver.find_element(By.XPATH,'/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/h1[1]/div[1]/span[1]')
+
+                if element_name:  # element_TS_tdが空でない場合、要素が存在する
+                    vehicleName = element_name.text
+                else:
+                    vehicleName = "NO-NAME"
+
+            except NoSuchElementException:
+                vehicleName = "NO-NAME"
+
             element_tables = self.driver.find_elements(By.XPATH,'//div/table')
 
             # KEY INFO ( Class,Maker )
@@ -155,6 +167,7 @@ class Application:
 
             display_price = "{:,}".format(int(vehiclePrice) * self.magnification)
 
+            print(f"vehicleName: {vehicleName}")
             print(f"vehicleModelID: {vehicleModelID}")
             print(f"vehicleClass: {vehicleClass}")
             print(f"vehicleMaker: {vehicleMaker}")
@@ -165,6 +178,7 @@ class Application:
 
             # new {}
             new_data = {
+                "name": vehicleName,
                 "model": vehicleModelID,
                 "class": vehicleClass,
                 "maker": vehicleMaker,
