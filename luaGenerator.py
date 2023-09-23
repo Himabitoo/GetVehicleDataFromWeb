@@ -94,7 +94,7 @@ for i in range(len(json_files)):
             case "Sports":
                 vehicleCategory = "sports"
 
-            case "Super":
+            case "Supers":
                 vehicleCategory = "super"
 
             # case "Emergency":
@@ -136,6 +136,9 @@ for i in range(len(json_files)):
 
             case "super":
                 vehicleCategoryLabel = "Super"
+
+            case _:
+                vehicleCategoryLabel = "NO-FOUND"
 
             # case "Emergency":
             #     vehicleCategoryLabel = "coupes"
