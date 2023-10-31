@@ -1,1 +1,16 @@
 lua will generate here
+
+```
+templateVehicle = '''
+['#vehicleHash'] = {
+    ['name'] = '#vehicleName',
+    ['brand'] = '#vehicleBrand',
+    ['model'] = '#vehicleModel',
+    ['price'] = #vehiclePrice,
+    ['category'] = '#vehicleCategory',
+    ['categoryLabel'] = '#vehicleCL',
+    ['hash'] = `#vehicleHash`,
+    ['shop'] = '#vehicleShop',
+},\n
+'''
+```

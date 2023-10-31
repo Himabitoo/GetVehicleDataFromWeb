@@ -6,7 +6,7 @@ import tkinter as tk
 
 # Setting of Price
 doFold = True
-intFold = 120
+intFold = 56
 
 templateVehicle = '''
 ['#vehicleHash'] = {
@@ -21,6 +21,10 @@ templateVehicle = '''
 },\n
 '''
 
+# 売る場所のの設定
+shopPDM = [ 'compacts', 'coupes', 'suvs', 'sedans', 'sportsclassics', ]
+shopLUXURY = ['sports', 'super', ]
+
 ##########################################
 
 jsonFolderPath = './data/json/'
@@ -32,15 +36,16 @@ all_files = os.listdir(jsonFolderPath)
 # JSONファイルのみを抽出
 json_files = [os.path.join(jsonFolderPath, file) for file in all_files if file.endswith(".json")]
 
-newTemplateList = []
 
 for i in range(len(json_files)):
 
+    newTemplateList = []
+    
     json_file = json_files[i]
     file_name_without_extension = os.path.splitext(json_file)[1]
 
     # 既存の JSON ファイルを読み込む
-    with open(json_file, "r") as jf:
+    with open(json_file, "r",encoding='utf-8') as jf:
         existing_data = json.load(jf)
 
     for item in existing_data:
@@ -148,11 +153,6 @@ for i in range(len(json_files)):
             # case "Coupes":
             #     vehicleCategoryLabel = "coupes"
 
-
-        # 売る場所のの設定
-        shopPDM = [ 'compacts', 'coupes', 'suvs', 'sedans', 'sportsclassics', ]
-        shopLUXURY = ['sports', 'super', ]
-
         if vehicleCategory in shopPDM:
             vehicleShop = 'pdm'
         elif vehicleCategory in shopLUXURY:
@@ -171,6 +171,8 @@ for i in range(len(json_files)):
         newTemplate = newTemplate.replace('#vehicleCategory',vehicleCategory)
         newTemplate = newTemplate.replace('#vehicleCL',vehicleCategoryLabel)
         newTemplate = newTemplate.replace('#vehicleShop',vehicleShop)
+        newTemplate = newTemplate.replace('\xe4','')
+
 
         print(newTemplate)
         print("\n")

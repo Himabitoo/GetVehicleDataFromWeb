@@ -190,5 +190,293 @@
         "brand": "Dinka",
         "price": 350000,
         "top-speed": 119.25
+    },
+    {
+        "name": "Massacro",
+        "model": "massacro",
+        "class": "Sports",
+        "brand": "Dewbauchee",
+        "price": 275000,
+        "top-speed": 121.75
+    },
+    {
+        "name": "Super Diamond",
+        "model": "superd",
+        "class": "Sedans",
+        "brand": "Enus",
+        "price": 250000,
+        "top-speed": 111.75
+    },
+    {
+        "name": "Jester",
+        "model": "jester",
+        "class": "Sports",
+        "brand": "Dinka",
+        "price": 240000,
+        "top-speed": 118.75
+    },
+    {
+        "name": "Vacca",
+        "model": "vacca",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 240000,
+        "top-speed": 120.25
+    },
+    {
+        "name": "Exemplar",
+        "model": "exemplar",
+        "class": "Coupes",
+        "brand": "Dewbauchee",
+        "price": 205000,
+        "top-speed": 117.25
+    },
+    {
+        "name": "Glendale",
+        "model": "glendale",
+        "class": "Sedans",
+        "brand": "Benefactor",
+        "price": 200000,
+        "top-speed": 107.0
+    },
+    {
+        "name": "Carbonizzare",
+        "model": "carbonizzare",
+        "class": "Sports",
+        "brand": "Grotti",
+        "price": 195000,
+        "top-speed": 119.5
+    },
+    {
+        "name": "Huntley S",
+        "model": "huntley",
+        "class": "SUVs",
+        "brand": "Enus",
+        "price": 195000,
+        "top-speed": 108.25
+    },
+    {
+        "name": "Cognoscenti Cabrio",
+        "model": "cogcabrio",
+        "class": "Coupes",
+        "brand": "Enus",
+        "price": 185000,
+        "top-speed": 111.75
+    },
+    {
+        "name": "Bullet",
+        "model": "bullet",
+        "class": "Supers",
+        "brand": "Vapid",
+        "price": 155000,
+        "top-speed": 118.75
+    },
+    {
+        "name": "Alpha",
+        "model": "alpha",
+        "class": "Sports",
+        "brand": "Albany",
+        "price": 150000,
+        "top-speed": 117.75
+    },
+    {
+        "name": "Voltic",
+        "model": "voltic",
+        "class": "Supers",
+        "brand": "Coil",
+        "price": 150000,
+        "top-speed": 106.0
+    },
+    {
+        "name": "Feltzer",
+        "model": "feltzer2",
+        "class": "Sports",
+        "brand": "Benefactor",
+        "price": 145000,
+        "top-speed": 119.5
+    },
+    {
+        "name": "Rapid GT",
+        "model": "rapidgt2",
+        "class": "Sports",
+        "brand": "Dewbauchee",
+        "price": 140000,
+        "top-speed": 119.5
+    },
+    {
+        "name": "Rhapsody",
+        "model": "rhapsody",
+        "class": "Compacts",
+        "brand": "Declasse",
+        "price": 140000,
+        "top-speed": 102.25
+    },
+    {
+        "name": "Coquette",
+        "model": "coquette",
+        "class": "Sports",
+        "brand": "Invetero",
+        "price": 138000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "Rapid GT",
+        "model": "rapidgt",
+        "class": "Sports",
+        "brand": "Dewbauchee",
+        "price": 132000,
+        "top-speed": 119.5
+    },
+    {
+        "name": "9F Cabrio",
+        "model": "ninef2",
+        "class": "Sports",
+        "brand": "Obey",
+        "price": 130000,
+        "top-speed": 119.75
+    },
+    {
+        "name": "Kuruma",
+        "model": "kuruma",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 126350,
+        "top-speed": 112.0
+    },
+    {
+        "name": "Banshee",
+        "model": "banshee",
+        "class": "Sports",
+        "brand": "Bravado",
+        "price": 90000,
+        "top-speed": 117.75
+    },
+    {
+        "name": "9F",
+        "model": "ninef",
+        "class": "Sports",
+        "brand": "Obey",
+        "price": 120000,
+        "top-speed": 119.75
+    },
+    {
+        "name": "Warrener",
+        "model": "warrener",
+        "class": "Sedans",
+        "brand": "Vulcar",
+        "price": 120000,
+        "top-speed": 103.25
+    },
+    {
+        "name": "Surano",
+        "model": "surano",
+        "class": "Sports",
+        "brand": "Benefactor",
+        "price": 99000,
+        "top-speed": 121.0
+    },
+    {
+        "name": "Comet",
+        "model": "comet2",
+        "class": "Sports",
+        "brand": "Pfister",
+        "price": 85000,
+        "top-speed": 119.5
+    },
+    {
+        "name": "Khamelion",
+        "model": "khamelion",
+        "class": "Sports",
+        "brand": "Hijak",
+        "price": 100000,
+        "top-speed": 102.25
+    },
+    {
+        "name": "Buffalo S",
+        "model": "buffalo2",
+        "class": "Sports",
+        "brand": "Bravado",
+        "price": 96000,
+        "top-speed": 112.25
+    },
+    {
+        "name": "Elegy RH8",
+        "model": "elegy2",
+        "class": "Sports",
+        "brand": "Annis",
+        "price": 95000,
+        "top-speed": 118.5
+    },
+    {
+        "name": "Felon GT",
+        "model": "felon2",
+        "class": "Coupes",
+        "brand": "Lampadati",
+        "price": 95000,
+        "top-speed": 110.5
+    },
+    {
+        "name": "Sentinel",
+        "model": "sentinel2",
+        "class": "Coupes",
+        "brand": "Ubermacht",
+        "price": 95000,
+        "top-speed": 112.0
+    },
+    {
+        "name": "Baller",
+        "model": "baller2",
+        "class": "SUVs",
+        "brand": "Gallivanter",
+        "price": 90000,
+        "top-speed": 108.25
+    },
+    {
+        "name": "Felon",
+        "model": "felon",
+        "class": "Coupes",
+        "brand": "Lampadati",
+        "price": 90000,
+        "top-speed": 113.75
+    },
+    {
+        "name": "Panto",
+        "model": "panto",
+        "class": "Compacts",
+        "brand": "Benefactor",
+        "price": 85000,
+        "top-speed": 100.25
+    },
+    {
+        "name": "Rocoto",
+        "model": "rocoto",
+        "class": "SUVs",
+        "brand": "Obey",
+        "price": 85000,
+        "top-speed": 107.5
+    },
+    {
+        "name": "Oracle XS",
+        "model": "oracle",
+        "class": "Coupes",
+        "brand": "Ubermacht",
+        "price": 82000,
+        "top-speed": 114.0
+    },
+    {
+        "name": "F620",
+        "model": "f620",
+        "class": "Coupes",
+        "brand": "Ocelot",
+        "price": 80000,
+        "top-speed": 117.5
+    },
+    {
+        "name": "Oracle",
+        "model": "oracle2",
+        "class": "Coupes",
+        "brand": "Ubermacht",
+        "price": 80000,
+        "top-speed": 115.0
     }
 ]
