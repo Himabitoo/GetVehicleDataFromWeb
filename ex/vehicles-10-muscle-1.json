@@ -1,0 +1,482 @@
+[
+    {
+        "name": "Apocalypse Dominator",
+        "model": "dominator4",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 1132000,
+        "top-speed": 131.0
+    },
+    {
+        "name": "Apocalypse Impaler",
+        "model": "impaler2",
+        "class": "Muscle",
+        "brand": "Declasse",
+        "price": 1209500,
+        "top-speed": 130.0
+    },
+    {
+        "name": "Apocalypse Imperator",
+        "model": "imperator",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 2284940,
+        "top-speed": 132.75
+    },
+    {
+        "name": "Apocalypse Slamvan",
+        "model": "slamvan4",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 1321875,
+        "top-speed": 121.0
+    },
+    {
+        "name": "Arbiter GT",
+        "model": "arbitergt",
+        "class": "Muscle",
+        "brand": "Imponte",
+        "price": 375000,
+        "top-speed": 141.25
+    },
+    {
+        "name": "Arbiter GT",
+        "model": "arbitergt",
+        "class": "Muscle",
+        "brand": "Imponte",
+        "price": 1580000,
+        "top-speed": 112.75
+    },
+    {
+        "name": "Beater Dukes",
+        "model": "dukes3",
+        "class": "Muscle",
+        "brand": "Imponte",
+        "price": 378000,
+        "top-speed": 112.5
+    },
+    {
+        "name": "Blade",
+        "model": "blade",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 160000,
+        "top-speed": 109.75
+    },
+    {
+        "name": "Brigham",
+        "model": "brigham",
+        "class": "Muscle",
+        "brand": "Albany",
+        "price": 1499000,
+        "top-speed": 105.5
+    },
+    {
+        "name": "Broadway",
+        "model": "broadway",
+        "class": "Muscle",
+        "brand": "Classique",
+        "price": 925000,
+        "top-speed": 100.0
+    },
+    {
+        "name": "Buccaneer",
+        "model": "buccaneer",
+        "class": "Muscle",
+        "brand": "Albany",
+        "price": 29000,
+        "top-speed": 113.0
+    },
+    {
+        "name": "Buccaneer Custom",
+        "model": "buccaneer2",
+        "class": "Muscle",
+        "brand": "Albany",
+        "price": 390000,
+        "top-speed": 113.0
+    },
+    {
+        "name": "Buffalo EVX",
+        "model": "buffalo5",
+        "class": "Muscle",
+        "brand": "Bravado",
+        "price": 1415000,
+        "top-speed": 144.75
+    },
+    {
+        "name": "Buffalo EVX",
+        "model": "buffalo5",
+        "class": "Muscle",
+        "brand": "Bravado",
+        "price": 2140000,
+        "top-speed": 119.0
+    },
+    {
+        "name": "Buffalo STX",
+        "model": "buffalo4",
+        "class": "Muscle",
+        "brand": "Bravado",
+        "price": 2150000,
+        "top-speed": 126.25
+    },
+    {
+        "name": "Burger Shot Stallion",
+        "model": "stalion2",
+        "class": "Muscle",
+        "brand": "Declasse",
+        "price": 277000,
+        "top-speed": 113.25
+    },
+    {
+        "name": "Chino",
+        "model": "chino",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 225000,
+        "top-speed": 94.25
+    },
+    {
+        "name": "Chino Custom",
+        "model": "chino2",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 180000,
+        "top-speed": 95.5
+    },
+    {
+        "name": "Clique",
+        "model": "clique",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 909000,
+        "top-speed": 117.5
+    },
+    {
+        "name": "Clique Wagon",
+        "model": "clique2",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 1205000,
+        "top-speed": 91.0
+    },
+    {
+        "name": "Coquette BlackFin",
+        "model": "coquette3",
+        "class": "Muscle",
+        "brand": "Invetero",
+        "price": 695000,
+        "top-speed": 114.25
+    },
+    {
+        "name": "Deviant",
+        "model": "deviant",
+        "class": "Muscle",
+        "brand": "Schyster",
+        "price": 512000,
+        "top-speed": 108.5
+    },
+    {
+        "name": "Dominator",
+        "model": "dominator",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 35000,
+        "top-speed": 120.25
+    },
+    {
+        "name": "Dominator ASP",
+        "model": "dominator7",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 1775000,
+        "top-speed": 119.0
+    },
+    {
+        "name": "Dominator GTT",
+        "model": "dominator8",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 1220000,
+        "top-speed": 115.5
+    },
+    {
+        "name": "Dominator GTX",
+        "model": "dominator3",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 725000,
+        "top-speed": 108.75
+    },
+    {
+        "name": "Drift Yosemite",
+        "model": "yosemite2",
+        "class": "Muscle",
+        "brand": "Declasse",
+        "price": 1308000,
+        "top-speed": 108.25
+    },
+    {
+        "name": "Duke O'Death",
+        "model": "dukes2",
+        "class": "Muscle",
+        "brand": "Imponte",
+        "price": 665000,
+        "top-speed": 114.25
+    },
+    {
+        "name": "Dukes",
+        "model": "dukes",
+        "class": "Muscle",
+        "brand": "Imponte",
+        "price": 62000,
+        "top-speed": 112.5
+    },
+    {
+        "name": "Ellie",
+        "model": "ellie",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 565000,
+        "top-speed": 106.5
+    },
+    {
+        "name": "Eudora",
+        "model": "eudora",
+        "class": "Muscle",
+        "brand": "Willard",
+        "price": 1250000,
+        "top-speed": 109.0
+    },
+    {
+        "name": "Faction",
+        "model": "faction",
+        "class": "Muscle",
+        "brand": "Willard",
+        "price": 36000,
+        "top-speed": 110.75
+    },
+    {
+        "name": "Faction Custom",
+        "model": "faction2",
+        "class": "Muscle",
+        "brand": "Willard",
+        "price": 335000,
+        "top-speed": 110.75
+    },
+    {
+        "name": "Faction Custom Donk",
+        "model": "faction3",
+        "class": "Muscle",
+        "brand": "Willard",
+        "price": 695000,
+        "top-speed": 97.5
+    },
+    {
+        "name": "Future Shock Dominator",
+        "model": "dominator5",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 1132000,
+        "top-speed": 131.0
+    },
+    {
+        "name": "Future Shock Impaler",
+        "model": "impaler3",
+        "class": "Muscle",
+        "brand": "Declasse",
+        "price": 1209500,
+        "top-speed": 130.0
+    },
+    {
+        "name": "Future Shock Imperator",
+        "model": "imperator2",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 2284940,
+        "top-speed": 132.75
+    },
+    {
+        "name": "Future Shock Slamvan",
+        "model": "slamvan5",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 1321875,
+        "top-speed": 121.0
+    },
+    {
+        "name": "Gauntlet",
+        "model": "gauntlet",
+        "class": "Muscle",
+        "brand": "Bravado",
+        "price": 32000,
+        "top-speed": 113.25
+    },
+    {
+        "name": "Gauntlet Classic",
+        "model": "gauntlet3",
+        "class": "Muscle",
+        "brand": "Bravado",
+        "price": 615000,
+        "top-speed": 109.75
+    },
+    {
+        "name": "Gauntlet Classic Custom",
+        "model": "gauntlet5",
+        "class": "Muscle",
+        "brand": "Bravado",
+        "price": 815000,
+        "top-speed": 125.5
+    },
+    {
+        "name": "Gauntlet Hellfire",
+        "model": "gauntlet4",
+        "class": "Muscle",
+        "brand": "Bravado",
+        "price": 745000,
+        "top-speed": 125.25
+    },
+    {
+        "name": "Greenwood",
+        "model": "greenwood",
+        "class": "Muscle",
+        "brand": "Bravado",
+        "price": 1465000,
+        "top-speed": 118.0
+    },
+    {
+        "name": "Hermes",
+        "model": "hermes",
+        "class": "Muscle",
+        "brand": "Albany",
+        "price": 535000,
+        "top-speed": 117.75
+    },
+    {
+        "name": "Hotknife",
+        "model": "hotknife",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 90000,
+        "top-speed": 109.5
+    },
+    {
+        "name": "Hustler",
+        "model": "hustler",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 625000,
+        "top-speed": 121.25
+    },
+    {
+        "name": "Impaler",
+        "model": "impaler",
+        "class": "Muscle",
+        "brand": "Declasse",
+        "price": 331835,
+        "top-speed": 115.5
+    },
+    {
+        "name": "Lost Slamvan",
+        "model": "slamvan2",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 0,
+        "top-speed": 109.0
+    },
+    {
+        "name": "Lurcher",
+        "model": "lurcher",
+        "class": "Muscle",
+        "brand": "Albany",
+        "price": 650000,
+        "top-speed": 114.25
+    },
+    {
+        "name": "Manana Custom",
+        "model": "manana2",
+        "class": "Muscle",
+        "brand": "Albany",
+        "price": 925000,
+        "top-speed": 108.75
+    },
+    {
+        "name": "Moonbeam",
+        "model": "moonbeam",
+        "class": "Muscle",
+        "brand": "Declasse",
+        "price": 32500,
+        "top-speed": 102.0
+    },
+    {
+        "name": "Moonbeam Custom",
+        "model": "moonbeam2",
+        "class": "Muscle",
+        "brand": "Declasse",
+        "price": 370000,
+        "top-speed": 102.0
+    },
+    {
+        "name": "Nightmare Dominator",
+        "model": "dominator6",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 1132000,
+        "top-speed": 131.0
+    },
+    {
+        "name": "Nightmare Impaler",
+        "model": "impaler4",
+        "class": "Muscle",
+        "brand": "Declasse",
+        "price": 1209500,
+        "top-speed": 130.0
+    },
+    {
+        "name": "Nightmare Imperator",
+        "model": "imperator3",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 2284940,
+        "top-speed": 132.75
+    },
+    {
+        "name": "Nightmare Slamvan",
+        "model": "slamvan6",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 1321875,
+        "top-speed": 121.0
+    },
+    {
+        "name": "Nightshade",
+        "model": "nightshade",
+        "class": "Muscle",
+        "brand": "Imponte",
+        "price": 585000,
+        "top-speed": 104.5
+    },
+    {
+        "name": "Peyote Gasser",
+        "model": "peyote2",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 805000,
+        "top-speed": 118.0
+    },
+    {
+        "name": "Phoenix",
+        "model": "phoenix",
+        "class": "Muscle",
+        "brand": "Imponte",
+        "price": 0,
+        "top-speed": 113.0
+    },
+    {
+        "name": "Picador",
+        "model": "picador",
+        "class": "Muscle",
+        "brand": "Cheval",
+        "price": 9000,
+        "top-speed": 102.25
+    }
+]

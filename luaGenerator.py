@@ -22,8 +22,9 @@ templateVehicle = '''
 '''
 
 # 売る場所のの設定
-shopPDM = [ 'compacts', 'coupes', 'suvs', 'sedans', 'sportsclassics', ]
+shopPDM = [ 'compacts', 'coupes', 'suvs', 'sedans', 'sportsclassics', 'muscle',]
 shopLUXURY = ['sports', 'super', ]
+shopHelicopters = [ 'heli' ]
 
 ##########################################
 
@@ -84,6 +85,9 @@ for i in range(len(json_files)):
             case "Motorcycles":
                 vehicleCategory = "motorcycles"
 
+            case "Muscle":
+                vehicleCategory = "muscle"
+
             case "Off-Road":
                 vehicleCategory = "offroad"
 
@@ -101,6 +105,9 @@ for i in range(len(json_files)):
 
             case "Supers":
                 vehicleCategory = "super"
+            
+            # case "Helicopters"
+            #     vehicleCategory = "heli"
 
             # case "Emergency":
             #     vehicleCategory = "coupes"
@@ -126,6 +133,9 @@ for i in range(len(json_files)):
 
             case "offroad":
                 vehicleCategoryLabel = "Off Road"
+
+            case "muscle":
+                vehicleCategoryLabel = "Muscle"
 
             case "suvs":
                 vehicleCategoryLabel = "SUVs"

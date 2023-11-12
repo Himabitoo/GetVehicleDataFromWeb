@@ -1,0 +1,482 @@
+[
+    {
+        "name": "Weaponized Ignus",
+        "model": "ignus2",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 4500000,
+        "top-speed": 124.75
+    },
+    {
+        "name": "Champion",
+        "model": "champion",
+        "class": "Supers",
+        "brand": "Dewbauchee",
+        "price": 3750000,
+        "top-speed": 124.75
+    },
+    {
+        "name": "Itali RSX",
+        "model": "italirsx",
+        "class": "Sports",
+        "brand": "Grotti",
+        "price": 3465000,
+        "top-speed": 135.25
+    },
+    {
+        "name": "Virtue",
+        "model": "virtue",
+        "class": "Supers",
+        "brand": "Ocelot",
+        "price": 2980000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "LM87",
+        "model": "lm87",
+        "class": "Supers",
+        "brand": "Benefactor",
+        "price": 2915000,
+        "top-speed": 128.5
+    },
+    {
+        "name": "Torero XO",
+        "model": "torero2",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 2890000,
+        "top-speed": 131.0
+    },
+    {
+        "name": "Krieger",
+        "model": "krieger",
+        "class": "Supers",
+        "brand": "Benefactor",
+        "price": 2875000,
+        "top-speed": 127.25
+    },
+    {
+        "name": "Zeno",
+        "model": "zeno",
+        "class": "Supers",
+        "brand": "Overflod",
+        "price": 2820000,
+        "top-speed": 127.5
+    },
+    {
+        "name": "Ignus",
+        "model": "ignus",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 2765000,
+        "top-speed": 124.75
+    },
+    {
+        "name": "Emerus",
+        "model": "emerus",
+        "class": "Supers",
+        "brand": "Progen",
+        "price": 2750000,
+        "top-speed": 127.25
+    },
+    {
+        "name": "Furia",
+        "model": "furia",
+        "class": "Supers",
+        "brand": "Grotti",
+        "price": 2740000,
+        "top-speed": 122.0
+    },
+    {
+        "name": "S80RR",
+        "model": "s80",
+        "class": "Supers",
+        "brand": "Annis",
+        "price": 2575000,
+        "top-speed": 123.0
+    },
+    {
+        "name": "Itali GTO Stinger TT",
+        "model": "stingertt",
+        "class": "Sports",
+        "brand": "Grotti",
+        "price": 2380000,
+        "top-speed": 132.0
+    },
+    {
+        "name": "Entity MT",
+        "model": "entity3",
+        "class": "Supers",
+        "brand": "Overflod",
+        "price": 2355000,
+        "top-speed": 131.25
+    },
+    {
+        "name": "Thrax",
+        "model": "thrax",
+        "class": "Supers",
+        "brand": "Truffade",
+        "price": 2325000,
+        "top-speed": 124.0
+    },
+    {
+        "name": "Tigon",
+        "model": "tigon",
+        "class": "Supers",
+        "brand": "Lampadati",
+        "price": 2310000,
+        "top-speed": 125.75
+    },
+    {
+        "name": "Cyclone II",
+        "model": "cyclone2",
+        "class": "Supers",
+        "brand": "Coil",
+        "price": 2250000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "Panthere",
+        "model": "panthere",
+        "class": "Sports",
+        "brand": "Toundra",
+        "price": 2170000,
+        "top-speed": 122.5
+    },
+    {
+        "name": "Imorgon",
+        "model": "imorgon",
+        "class": "Sports",
+        "brand": "Overflod",
+        "price": 2165000,
+        "top-speed": 107.25
+    },
+    {
+        "name": "Apocalypse ZR380",
+        "model": "zr380",
+        "class": "Sports",
+        "brand": "Annis",
+        "price": 2138640,
+        "top-speed": 140.5
+    },
+    {
+        "name": "Future Shock ZR380",
+        "model": "zr3802",
+        "class": "Sports",
+        "brand": "Annis",
+        "price": 2138640,
+        "top-speed": 140.5
+    },
+    {
+        "name": "Nightmare ZR380",
+        "model": "zr3803",
+        "class": "Sports",
+        "brand": "Annis",
+        "price": 2138640,
+        "top-speed": 140.5
+    },
+    {
+        "name": "SM722",
+        "model": "sm722",
+        "class": "Sports",
+        "brand": "Benefactor",
+        "price": 2115000,
+        "top-speed": 123.75
+    },
+    {
+        "name": "300R",
+        "model": "r300",
+        "class": "Sports",
+        "brand": "Annis",
+        "price": 2075000,
+        "top-speed": 120.0
+    },
+    {
+        "name": "Granger 3600LX",
+        "model": "granger2",
+        "class": "SUVs",
+        "brand": "Declasse",
+        "price": 2000000,
+        "top-speed": 96.75
+    },
+    {
+        "name": "Calico GTF",
+        "model": "calico",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 1995000,
+        "top-speed": 121.25
+    },
+    {
+        "name": "S95",
+        "model": "s95",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 1995000,
+        "top-speed": 115.5
+    },
+    {
+        "name": "La Coureuse",
+        "model": "coureur",
+        "class": "Sports",
+        "brand": "Penaud",
+        "price": 1990000,
+        "top-speed": 114.5
+    },
+    {
+        "name": "Jester RR",
+        "model": "jester4",
+        "class": "Sports",
+        "brand": "Dinka",
+        "price": 1970000,
+        "top-speed": 125.0
+    },
+    {
+        "name": "Itali GTO",
+        "model": "italigto",
+        "class": "Sports",
+        "brand": "Grotti",
+        "price": 1965000,
+        "top-speed": 127.75
+    },
+    {
+        "name": "Zorrusso",
+        "model": "zorrusso",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 1925000,
+        "top-speed": 124.25
+    },
+    {
+        "name": "Comet S2",
+        "model": "comet6",
+        "class": "Sports",
+        "brand": "Pfister",
+        "price": 1878000,
+        "top-speed": 123.0
+    },
+    {
+        "name": "Neo",
+        "model": "neo",
+        "class": "Sports",
+        "brand": "Vysser",
+        "price": 1875000,
+        "top-speed": 125.75
+    },
+    {
+        "name": "Deity",
+        "model": "deity",
+        "class": "Sedans",
+        "brand": "Enus",
+        "price": 1845000,
+        "top-speed": 117.5
+    },
+    {
+        "name": "Banshee",
+        "model": "banshee",
+        "class": "Sports",
+        "brand": "Bravado",
+        "price": 1840000,
+        "top-speed": 153.0
+    },
+    {
+        "name": "Issi Rally",
+        "model": "issi8",
+        "class": "SUVs",
+        "brand": "Weeny",
+        "price": 1835000,
+        "top-speed": 116.75
+    },
+    {
+        "name": "Hotring Hellfire",
+        "model": "gauntlet6",
+        "class": "Sports",
+        "brand": "Bravado",
+        "price": 1810000,
+        "top-speed": 124.3
+    },
+    {
+        "name": "Euros",
+        "model": "euros",
+        "class": "Sports",
+        "brand": "Annis",
+        "price": 1800000,
+        "top-speed": 116.5
+    },
+    {
+        "name": "Comet S2 Cabrio",
+        "model": "comet7",
+        "class": "Sports",
+        "brand": "Pfister",
+        "price": 1797000,
+        "top-speed": 129.0
+    },
+    {
+        "name": "Corsita",
+        "model": "corsita",
+        "class": "Sports",
+        "brand": "Lampadati",
+        "price": 1795000,
+        "top-speed": 131.25
+    },
+    {
+        "name": "Deveste Eight",
+        "model": "deveste",
+        "class": "Supers",
+        "brand": "Principe",
+        "price": 1795000,
+        "top-speed": 131.75
+    },
+    {
+        "name": "Omnis e-GT",
+        "model": "omnisegt",
+        "class": "Sports",
+        "brand": "Obey",
+        "price": 1795000,
+        "top-speed": 111.5
+    },
+    {
+        "name": "Hotring Everon",
+        "model": "everon2",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 1790000,
+        "top-speed": 125.75
+    },
+    {
+        "name": "Sultan RS Classic",
+        "model": "sultan3",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 1789000,
+        "top-speed": 117.5
+    },
+    {
+        "name": "Vectre",
+        "model": "vectre",
+        "class": "Sports",
+        "brand": "Emperor",
+        "price": 1785000,
+        "top-speed": 115.25
+    },
+    {
+        "name": "Cinquemila",
+        "model": "cinquemila",
+        "class": "Sedans",
+        "brand": "Lampadati",
+        "price": 1740000,
+        "top-speed": 121.0
+    },
+    {
+        "name": "Astron Custom",
+        "model": "astron2",
+        "class": "SUVs",
+        "brand": "Pfister",
+        "price": 1720000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "I-Wagen",
+        "model": "iwagen",
+        "class": "SUVs",
+        "brand": "Obey",
+        "price": 1720000,
+        "top-speed": 94.0
+    },
+    {
+        "name": "Sultan Classic",
+        "model": "sultan2",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 1718000,
+        "top-speed": 116.5
+    },
+    {
+        "name": "RT3000",
+        "model": "rt3000",
+        "class": "Sports",
+        "brand": "Dinka",
+        "price": 1715000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "Komoda",
+        "model": "komoda",
+        "class": "Sports",
+        "brand": "Lampadati",
+        "price": 1700000,
+        "top-speed": 123.0
+    },
+    {
+        "name": "10F",
+        "model": "tenf",
+        "class": "Sports",
+        "brand": "Obey",
+        "price": 1675000,
+        "top-speed": 126.0
+    },
+    {
+        "name": "Jubilee",
+        "model": "jubilee",
+        "class": "SUVs",
+        "brand": "Enus",
+        "price": 1650000,
+        "top-speed": 116.75
+    },
+    {
+        "name": "Growler",
+        "model": "growler",
+        "class": "Sports",
+        "brand": "Pfister",
+        "price": 1627000,
+        "top-speed": 121.5
+    },
+    {
+        "name": "Locust",
+        "model": "locust",
+        "class": "Sports",
+        "brand": "Ocelot",
+        "price": 1625000,
+        "top-speed": 119.75
+    },
+    {
+        "name": "Retinue Mk II",
+        "model": "retinue2",
+        "class": "Sports Classics",
+        "brand": "Vapid",
+        "price": 1620000,
+        "top-speed": 120.25
+    },
+    {
+        "name": "ZR350",
+        "model": "zr350",
+        "class": "Sports",
+        "brand": "Annis",
+        "price": 1615000,
+        "top-speed": 117.5
+    },
+    {
+        "name": "Rhinehart",
+        "model": "rhinehart",
+        "class": "Sedans",
+        "brand": "Ubermacht",
+        "price": 1598000,
+        "top-speed": 123.0
+    },
+    {
+        "name": "Futo GTX",
+        "model": "futo2",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 1590000,
+        "top-speed": 119.75
+    },
+    {
+        "name": "Astron",
+        "model": "astron",
+        "class": "SUVs",
+        "brand": "Pfister",
+        "price": 1580000,
+        "top-speed": 119.25
+    }
+]

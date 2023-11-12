@@ -1,0 +1,482 @@
+[
+    {
+        "name": "Deluxo",
+        "model": "deluxo",
+        "class": "Sports Classics",
+        "brand": "Imponte",
+        "price": 5750000,
+        "top-speed": 127.25
+    },
+    {
+        "name": "Scramjet",
+        "model": "scramjet",
+        "class": "Supers",
+        "brand": "Declasse",
+        "price": 4000000,
+        "top-speed": 137.0
+    },
+    {
+        "name": "Rocket Voltic",
+        "model": "voltic2",
+        "class": "Supers",
+        "brand": "Coil",
+        "price": 3830400,
+        "top-speed": 124.5
+    },
+    {
+        "name": "Vigilante",
+        "model": "vigilante",
+        "class": "Supers",
+        "brand": "Grotti",
+        "price": 3750000,
+        "top-speed": 147.0
+    },
+    {
+        "name": "Tezeract",
+        "model": "tezeract",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 2825000,
+        "top-speed": 125.5
+    },
+    {
+        "name": "X80 Proto",
+        "model": "prototipo",
+        "class": "Supers",
+        "brand": "Grotti",
+        "price": 2700000,
+        "top-speed": 127.5
+    },
+    {
+        "name": "Tyrus",
+        "model": "tyrus",
+        "class": "Supers",
+        "brand": "Progen",
+        "price": 2550000,
+        "top-speed": 123.5
+    },
+    {
+        "name": "Tyrant",
+        "model": "tyrant",
+        "class": "Supers",
+        "brand": "Overflod",
+        "price": 2515000,
+        "top-speed": 127.0
+    },
+    {
+        "name": "RE-7B",
+        "model": "le7b",
+        "class": "Supers",
+        "brand": "Annis",
+        "price": 2475000,
+        "top-speed": 123.5
+    },
+    {
+        "name": "XA-21",
+        "model": "xa21",
+        "class": "Supers",
+        "brand": "Ocelot",
+        "price": 2375000,
+        "top-speed": 122.5
+    },
+    {
+        "name": "Entity XXR",
+        "model": "entity2",
+        "class": "Supers",
+        "brand": "Overflod",
+        "price": 2305000,
+        "top-speed": 128.0
+    },
+    {
+        "name": "Visione",
+        "model": "visione",
+        "class": "Supers",
+        "brand": "Grotti",
+        "price": 2250000,
+        "top-speed": 125.25
+    },
+    {
+        "name": "ETR1",
+        "model": "sheava",
+        "class": "Supers",
+        "brand": "Emperor",
+        "price": 1995000,
+        "top-speed": 120.75
+    },
+    {
+        "name": "Taipan",
+        "model": "taipan",
+        "class": "Supers",
+        "brand": "Cheval",
+        "price": 1980000,
+        "top-speed": 126.25
+    },
+    {
+        "name": "Autarch",
+        "model": "autarch",
+        "class": "Supers",
+        "brand": "Overflod",
+        "price": 1955000,
+        "top-speed": 125.5
+    },
+    {
+        "name": "Cyclone",
+        "model": "cyclone",
+        "class": "Supers",
+        "brand": "Coil",
+        "price": 1890000,
+        "top-speed": 116.25
+    },
+    {
+        "name": "FMJ",
+        "model": "fmj",
+        "class": "Supers",
+        "brand": "Vapid",
+        "price": 1750000,
+        "top-speed": 125.0
+    },
+    {
+        "name": "Lynx",
+        "model": "lynx",
+        "class": "Sports",
+        "brand": "Ocelot",
+        "price": 1735000,
+        "top-speed": 121.5
+    },
+    {
+        "name": "Flash GT",
+        "model": "flashgt",
+        "class": "Sports",
+        "brand": "Vapid",
+        "price": 1675000,
+        "top-speed": 116.25
+    },
+    {
+        "name": "Turreted Limo",
+        "model": "limo2",
+        "class": "Sedans",
+        "brand": "Benefactor",
+        "price": 1650000,
+        "top-speed": 89.5
+    },
+    {
+        "name": "Revolter",
+        "model": "revolter",
+        "class": "Sports",
+        "brand": "Ubermacht",
+        "price": 1610000,
+        "top-speed": 115.5
+    },
+    {
+        "name": "SC1",
+        "model": "sc1",
+        "class": "Supers",
+        "brand": "Ubermacht",
+        "price": 1603000,
+        "top-speed": 120.75
+    },
+    {
+        "name": "Reaper",
+        "model": "reaper",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 1595000,
+        "top-speed": 121.75
+    },
+    {
+        "name": "Vagner",
+        "model": "vagner",
+        "class": "Supers",
+        "brand": "Dewbauchee",
+        "price": 1535000,
+        "top-speed": 126.75
+    },
+    {
+        "name": "Neon",
+        "model": "neon",
+        "class": "Sports",
+        "brand": "Pfister",
+        "price": 1500000,
+        "top-speed": 114.0
+    },
+    {
+        "name": "Nero",
+        "model": "nero",
+        "class": "Supers",
+        "brand": "Truffade",
+        "price": 1440000,
+        "top-speed": 126.5
+    },
+    {
+        "name": "Pariah",
+        "model": "pariah",
+        "class": "Sports",
+        "brand": "Ocelot",
+        "price": 1420000,
+        "top-speed": 136.0
+    },
+    {
+        "name": "Raiden",
+        "model": "raiden",
+        "class": "Sports",
+        "brand": "Coil",
+        "price": 1375000,
+        "top-speed": 113.25
+    },
+    {
+        "name": "Tempesta",
+        "model": "tempesta",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 1329000,
+        "top-speed": 121.25
+    },
+    {
+        "name": "Stafford",
+        "model": "stafford",
+        "class": "Sedans",
+        "brand": "Enus",
+        "price": 1272000,
+        "top-speed": 93.5
+    },
+    {
+        "name": "GP1",
+        "model": "gp1",
+        "class": "Supers",
+        "brand": "Progen",
+        "price": 1260000,
+        "top-speed": 123.75
+    },
+    {
+        "name": "Michelli GT",
+        "model": "michelli",
+        "class": "Sports Classics",
+        "brand": "Lampadati",
+        "price": 1225000,
+        "top-speed": 106.5
+    },
+    {
+        "name": "Itali GTB",
+        "model": "italigtb",
+        "class": "Supers",
+        "brand": "Progen",
+        "price": 1189000,
+        "top-speed": 126.25
+    },
+    {
+        "name": "Ardent",
+        "model": "ardent",
+        "class": "Sports Classics",
+        "brand": "Ocelot",
+        "price": 1150000,
+        "top-speed": 117.75
+    },
+    {
+        "name": "Comet SR",
+        "model": "comet5",
+        "class": "Sports",
+        "brand": "Pfister",
+        "price": 1145000,
+        "top-speed": 122.0
+    },
+    {
+        "name": "811",
+        "model": "pfister811",
+        "class": "Supers",
+        "brand": "Pfister",
+        "price": 1135000,
+        "top-speed": 132.5
+    },
+    {
+        "name": "Torero",
+        "model": "torero",
+        "class": "Sports Classics",
+        "brand": "Pegassi",
+        "price": 998000,
+        "top-speed": 116.5
+    },
+    {
+        "name": "Drift Tampa",
+        "model": "tampa2",
+        "class": "Sports",
+        "brand": "Declasse",
+        "price": 995000,
+        "top-speed": 114.25
+    },
+    {
+        "name": "Mamba",
+        "model": "mamba",
+        "class": "Sports Classics",
+        "brand": "Declasse",
+        "price": 995000,
+        "top-speed": 117.0
+    },
+    {
+        "name": "Savestra",
+        "model": "savestra",
+        "class": "Sports Classics",
+        "brand": "Annis",
+        "price": 990000,
+        "top-speed": 117.0
+    },
+    {
+        "name": "Roosevelt Valor",
+        "model": "btype3",
+        "class": "Sports Classics",
+        "brand": "Albany",
+        "price": 982000,
+        "top-speed": 98.5
+    },
+    {
+        "name": "GB200",
+        "model": "gb200",
+        "class": "Sports",
+        "brand": "Vapid",
+        "price": 940000,
+        "top-speed": 114.25
+    },
+    {
+        "name": "Infernus Classic",
+        "model": "infernus2",
+        "class": "Sports Classics",
+        "brand": "Pegassi",
+        "price": 915000,
+        "top-speed": 118.0
+    },
+    {
+        "name": "Swinger",
+        "model": "swinger",
+        "class": "Sports Classics",
+        "brand": "Ocelot",
+        "price": 909000,
+        "top-speed": 118.25
+    },
+    {
+        "name": "Elegy Retro Custom",
+        "model": "elegy",
+        "class": "Sports",
+        "brand": "Annis",
+        "price": 904000,
+        "top-speed": 115.25
+    },
+    {
+        "name": "190z",
+        "model": "z190",
+        "class": "Sports Classics",
+        "brand": "Karin",
+        "price": 900000,
+        "top-speed": 109.75
+    },
+    {
+        "name": "Windsor Drop",
+        "model": "windsor2",
+        "class": "Coupes",
+        "brand": "Enus",
+        "price": 900000,
+        "top-speed": 118.0
+    },
+    {
+        "name": "Rapid GT Classic",
+        "model": "rapidgt3",
+        "class": "Sports Classics",
+        "brand": "Dewbauchee",
+        "price": 885000,
+        "top-speed": 119.75
+    },
+    {
+        "name": "Penetrator",
+        "model": "penetrator",
+        "class": "Supers",
+        "brand": "Ocelot",
+        "price": 880000,
+        "top-speed": 124.0
+    },
+    {
+        "name": "Viseris",
+        "model": "viseris",
+        "class": "Sports Classics",
+        "brand": "Lampadati",
+        "price": 875000,
+        "top-speed": 124.25
+    },
+    {
+        "name": "Cheetah Classic",
+        "model": "cheetah2",
+        "class": "Sports Classics",
+        "brand": "Grotti",
+        "price": 865000,
+        "top-speed": 120.25
+    },
+    {
+        "name": "Hotring Sabre",
+        "model": "hotring",
+        "class": "Sports",
+        "brand": "Declasse",
+        "price": 830000,
+        "top-speed": 121.75
+    },
+    {
+        "name": "Tropos Rallye",
+        "model": "tropos",
+        "class": "Sports",
+        "brand": "Lampadati",
+        "price": 816000,
+        "top-speed": 119.5
+    },
+    {
+        "name": "Sultan RS",
+        "model": "sultanrs",
+        "class": "Supers",
+        "brand": "Karin",
+        "price": 795000,
+        "top-speed": 117.25
+    },
+    {
+        "name": "Jester Classic",
+        "model": "jester3",
+        "class": "Sports",
+        "brand": "Dinka",
+        "price": 790000,
+        "top-speed": 119.75
+    },
+    {
+        "name": "GT500",
+        "model": "gt500",
+        "class": "Sports Classics",
+        "brand": "Grotti",
+        "price": 785000,
+        "top-speed": 110.75
+    },
+    {
+        "name": "Comet Safari",
+        "model": "comet4",
+        "class": "Sports",
+        "brand": "Pfister",
+        "price": 710000,
+        "top-speed": 120.0
+    },
+    {
+        "name": "Turismo Classic",
+        "model": "turismo2",
+        "class": "Sports Classics",
+        "brand": "Grotti",
+        "price": 705000,
+        "top-speed": 120.75
+    },
+    {
+        "name": "Omnis",
+        "model": "omnis",
+        "class": "Sports",
+        "brand": "Obey",
+        "price": 701000,
+        "top-speed": 112.5
+    },
+    {
+        "name": "Seven-70",
+        "model": "seven70",
+        "class": "Sports",
+        "brand": "Dewbauchee",
+        "price": 695000,
+        "top-speed": 123.5
+    }
+]

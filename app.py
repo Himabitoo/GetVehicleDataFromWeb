@@ -19,10 +19,9 @@ class Application:
 
     def __init__(self):
         self.WebUrl = [
-            "https://gtacars.net/gta5?q&page=1&filter_dlc=mpluxe2&filter_dlc=mpluxe&filter_dlc=mpheist&filter_dlc=mpchristmas2&filter_dlc=spupgrade&filter_dlc=mplts&filter_dlc=mppilot&filter_dlc=mpindependence&filter_dlc=mphipster&filter_dlc=mpbusiness2&filter_dlc=mpbusiness&filter_dlc=mpvalentines&filter_dlc=mpbeach&filter_dlc=TitleUpdate&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&filter_class=coupe&filter_class=motorcycle&filter_class=sedan&filter_class=sport&filter_class=sport_classic&filter_class=super&filter_class=suv&perPage=60",
-            "https://gtacars.net/gta5?q&page=2&filter_dlc=mpluxe2&filter_dlc=mpluxe&filter_dlc=mpheist&filter_dlc=mpchristmas2&filter_dlc=spupgrade&filter_dlc=mplts&filter_dlc=mppilot&filter_dlc=mpindependence&filter_dlc=mphipster&filter_dlc=mpbusiness2&filter_dlc=mpbusiness&filter_dlc=mpvalentines&filter_dlc=mpbeach&filter_dlc=TitleUpdate&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&filter_class=coupe&filter_class=motorcycle&filter_class=sedan&filter_class=sport&filter_class=sport_classic&filter_class=super&filter_class=suv&perPage=60",
-            "https://gtacars.net/gta5?q&page=1&filter_dlc=mplowrider&filter_dlc=mphalloween&filter_dlc=mpxmas_604490&filter_dlc=mpjanuary2016&filter_dlc=mpvalentines2&filter_dlc=mplowrider2&filter_dlc=mpstunt&filter_dlc=mpapartment&filter_dlc=mpexecutive&filter_dlc=mpbiker&filter_dlc=mpimportexport&filter_dlc=mpspecialraces&filter_dlc=mpgunrunning&filter_dlc=mpsmuggler&filter_dlc=mpchristmas2017&filter_dlc=mpassault&filter_dlc=mpbattle&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&filter_class=coupe&filter_class=motorcycle&filter_class=sedan&filter_class=sport&filter_class=sport_classic&filter_class=super&filter_class=suv&perPage=60",
-            "https://gtacars.net/gta5?q&page=2&filter_dlc=mplowrider&filter_dlc=mphalloween&filter_dlc=mpxmas_604490&filter_dlc=mpjanuary2016&filter_dlc=mpvalentines2&filter_dlc=mplowrider2&filter_dlc=mpstunt&filter_dlc=mpapartment&filter_dlc=mpexecutive&filter_dlc=mpbiker&filter_dlc=mpimportexport&filter_dlc=mpspecialraces&filter_dlc=mpgunrunning&filter_dlc=mpsmuggler&filter_dlc=mpchristmas2017&filter_dlc=mpassault&filter_dlc=mpbattle&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&filter_class=coupe&filter_class=motorcycle&filter_class=sedan&filter_class=sport&filter_class=sport_classic&filter_class=super&filter_class=suv&perPage=60",
+            "https://gtacars.net/gta5?page=1&filter_class=muscle&perPage=60",
+            "https://gtacars.net/gta5?page=2&filter_class=muscle&perPage=60",
+            # "https://gtacars.net/gta5?page=3&filter_class=off_road&filter_class=muscle&perPage=60",
         ]
         self.saveFolder = "./data/images/"
         self.jsonFolder = "./data/json/"
@@ -156,6 +155,7 @@ class Application:
                     vehiclePrice = vehiclePrice_element.text
                     vehiclePrice = vehiclePrice.replace('$ ', '')
                     vehiclePrice = vehiclePrice.replace('+ Full Coverage', '')
+                    vehiclePrice = vehiclePrice.replace('+ Luck', '')
                     vehiclePrice = vehiclePrice.replace(',', '')
                 else:
                     vehiclePrice = 0

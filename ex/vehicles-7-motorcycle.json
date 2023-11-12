@@ -1,0 +1,450 @@
+[
+    {
+        "name": "Oppressor Mk II",
+        "model": "oppressor2",
+        "class": "Motorcycles",
+        "brand": "Pegassi",
+        "price": 8000000,
+        "top-speed": 127.75
+    },
+    {
+        "name": "Oppressor",
+        "model": "oppressor",
+        "class": "Motorcycles",
+        "brand": "Pegassi",
+        "price": 2750000,
+        "top-speed": 140.0
+    },
+    {
+        "name": "Shinobi",
+        "model": "shinobi",
+        "class": "Motorcycles",
+        "brand": "Nagasaki",
+        "price": 2480500,
+        "top-speed": 125.25
+    },
+    {
+        "name": "Shotaro",
+        "model": "shotaro",
+        "class": "Motorcycles",
+        "brand": "Nagasaki",
+        "price": 2225000,
+        "top-speed": 123.75
+    },
+    {
+        "name": "Sanctus",
+        "model": "sanctus",
+        "class": "Motorcycles",
+        "brand": "LCC",
+        "price": 1995000,
+        "top-speed": 112.0
+    },
+    {
+        "name": "Reever",
+        "model": "reever",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 1900000,
+        "top-speed": 163.0
+    },
+    {
+        "name": "Powersurge",
+        "model": "powersurge",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 1605000,
+        "top-speed": 130.0
+    },
+    {
+        "name": "Hakuchou Drag",
+        "model": "hakuchou2",
+        "class": "Motorcycles",
+        "brand": "Shitzu",
+        "price": 1450000,
+        "top-speed": 157.5
+    },
+    {
+        "name": "Apocalypse Deathbike",
+        "model": "deathbike",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 1269000,
+        "top-speed": 150.0
+    },
+    {
+        "name": "Future Shock Deathbike",
+        "model": "deathbike2",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 1269000,
+        "top-speed": 150.0
+    },
+    {
+        "name": "Nightmare Deathbike",
+        "model": "deathbike3",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 1269000,
+        "top-speed": 150.0
+    },
+    {
+        "name": "Lectro",
+        "model": "lectro",
+        "class": "Motorcycles",
+        "brand": "Principe",
+        "price": 997500,
+        "top-speed": 109.25
+    },
+    {
+        "name": "Hakuchou Drag",
+        "model": "hakuchou2",
+        "class": "Motorcycles",
+        "brand": "Shitzu",
+        "price": 976000,
+        "top-speed": 126.5
+    },
+    {
+        "name": "Vindicator",
+        "model": "vindicator",
+        "class": "Motorcycles",
+        "brand": "Dinka",
+        "price": 630000,
+        "top-speed": 121.25
+    },
+    {
+        "name": "Defiler",
+        "model": "defiler",
+        "class": "Motorcycles",
+        "brand": "Shitzu",
+        "price": 412000,
+        "top-speed": 117.0
+    },
+    {
+        "name": "Vortex",
+        "model": "vortex",
+        "class": "Motorcycles",
+        "brand": "Pegassi",
+        "price": 356000,
+        "top-speed": 115.75
+    },
+    {
+        "name": "Esskey",
+        "model": "esskey",
+        "class": "Motorcycles",
+        "brand": "Pegassi",
+        "price": 264000,
+        "top-speed": 112.75
+    },
+    {
+        "name": "Diabolus Custom",
+        "model": "diablous2",
+        "class": "Motorcycles",
+        "brand": "Principe",
+        "price": 245000,
+        "top-speed": 115.25
+    },
+    {
+        "name": "Cliffhanger",
+        "model": "cliffhanger",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 225000,
+        "top-speed": 124.75
+    },
+    {
+        "name": "Manchez Scout",
+        "model": "manchez2",
+        "class": "Motorcycles",
+        "brand": "Maibatsu",
+        "price": 225000,
+        "top-speed": 139.75
+    },
+    {
+        "name": "FCR 1000 Custom",
+        "model": "fcr2",
+        "class": "Motorcycles",
+        "brand": "Pegassi",
+        "price": 196000,
+        "top-speed": 112.5
+    },
+    {
+        "name": "Diabolus",
+        "model": "diablous",
+        "class": "Motorcycles",
+        "brand": "Principe",
+        "price": 169000,
+        "top-speed": 114.25
+    },
+    {
+        "name": "Daemon",
+        "model": "daemon2",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 145000,
+        "top-speed": 106.5
+    },
+    {
+        "name": "FCR 1000",
+        "model": "fcr",
+        "class": "Motorcycles",
+        "brand": "Pegassi",
+        "price": 135000,
+        "top-speed": 112.0
+    },
+    {
+        "name": "Zombie Chopper",
+        "model": "zombieb",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 122000,
+        "top-speed": 113.75
+    },
+    {
+        "name": "Gargoyle",
+        "model": "gargoyle",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 120000,
+        "top-speed": 125.0
+    },
+    {
+        "name": "Sovereign",
+        "model": "sovereign",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 120000,
+        "top-speed": 106.25
+    },
+    {
+        "name": "Avarus",
+        "model": "avarus",
+        "class": "Motorcycles",
+        "brand": "LCC",
+        "price": 116000,
+        "top-speed": 107.5
+    },
+    {
+        "name": "Nightblade",
+        "model": "nightblade",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 100000,
+        "top-speed": 114.25
+    },
+    {
+        "name": "Zombie Bobber",
+        "model": "zombiea",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 99000,
+        "top-speed": 113.75
+    },
+    {
+        "name": "BF400",
+        "model": "bf400",
+        "class": "Motorcycles",
+        "brand": "Nagasaki",
+        "price": 95000,
+        "top-speed": 137.0
+    },
+    {
+        "name": "Wolfsbane",
+        "model": "wolfsbane",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 95000,
+        "top-speed": 101.5
+    },
+    {
+        "name": "Innovation",
+        "model": "innovation",
+        "class": "Motorcycles",
+        "brand": "LCC",
+        "price": 92500,
+        "top-speed": 110.0
+    },
+    {
+        "name": "Hakuchou",
+        "model": "hakuchou",
+        "class": "Motorcycles",
+        "brand": "Shitzu",
+        "price": 82000,
+        "top-speed": 134.0
+    },
+    {
+        "name": "Thrust",
+        "model": "thrust",
+        "class": "Motorcycles",
+        "brand": "Dinka",
+        "price": 75000,
+        "top-speed": 118.25
+    },
+    {
+        "name": "Manchez",
+        "model": "manchez",
+        "class": "Motorcycles",
+        "brand": "Maibatsu",
+        "price": 67000,
+        "top-speed": 113.5
+    },
+    {
+        "name": "Faggio Mod",
+        "model": "faggio3",
+        "class": "Motorcycles",
+        "brand": "Pegassi",
+        "price": 55000,
+        "top-speed": 74.25
+    },
+    {
+        "name": "Enduro",
+        "model": "enduro",
+        "class": "Motorcycles",
+        "brand": "Dinka",
+        "price": 48000,
+        "top-speed": 107.25
+    },
+    {
+        "name": "Rat Bike",
+        "model": "ratbike",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 48000,
+        "top-speed": 123.5
+    },
+    {
+        "name": "Faggio Sport",
+        "model": "faggio",
+        "class": "Motorcycles",
+        "brand": "Pegassi",
+        "price": 47500,
+        "top-speed": 76.75
+    },
+    {
+        "name": "Carbon RS",
+        "model": "carbonrs",
+        "class": "Motorcycles",
+        "brand": "Nagasaki",
+        "price": 40000,
+        "top-speed": 124.25
+    },
+    {
+        "name": "Bagger",
+        "model": "bagger",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 16000,
+        "top-speed": 98.0
+    },
+    {
+        "name": "Bati 801",
+        "model": "bati",
+        "class": "Motorcycles",
+        "brand": "Pegassi",
+        "price": 15000,
+        "top-speed": 135.0
+    },
+    {
+        "name": "Bati 801RR",
+        "model": "bati2",
+        "class": "Motorcycles",
+        "brand": "Pegassi",
+        "price": 15000,
+        "top-speed": 135.0
+    },
+    {
+        "name": "Hexer",
+        "model": "hexer",
+        "class": "Motorcycles",
+        "brand": "LCC",
+        "price": 15000,
+        "top-speed": 104.75
+    },
+    {
+        "name": "Double-T",
+        "model": "double",
+        "class": "Motorcycles",
+        "brand": "Dinka",
+        "price": 12000,
+        "top-speed": 118.0
+    },
+    {
+        "name": "Nemesis",
+        "model": "nemesis",
+        "class": "Motorcycles",
+        "brand": "Principe",
+        "price": 12000,
+        "top-speed": 111.25
+    },
+    {
+        "name": "Ruffian",
+        "model": "ruffian",
+        "class": "Motorcycles",
+        "brand": "Pegassi",
+        "price": 10000,
+        "top-speed": 127.0
+    },
+    {
+        "name": "Akuma",
+        "model": "akuma",
+        "class": "Motorcycles",
+        "brand": "Dinka",
+        "price": 9000,
+        "top-speed": 121.25
+    },
+    {
+        "name": "PCJ 600",
+        "model": "pcj",
+        "class": "Motorcycles",
+        "brand": "Shitzu",
+        "price": 9000,
+        "top-speed": 106.75
+    },
+    {
+        "name": "Vader",
+        "model": "vader",
+        "class": "Motorcycles",
+        "brand": "Shitzu",
+        "price": 9000,
+        "top-speed": 107.75
+    },
+    {
+        "name": "Sanchez",
+        "model": "sanchez2",
+        "class": "Motorcycles",
+        "brand": "Maibatsu",
+        "price": 8000,
+        "top-speed": 119.5
+    },
+    {
+        "name": "Sanchez (livery)",
+        "model": "sanchez",
+        "class": "Motorcycles",
+        "brand": "Maibatsu",
+        "price": 7000,
+        "top-speed": 119.5
+    },
+    {
+        "name": "Faggio",
+        "model": "faggio2",
+        "class": "Motorcycles",
+        "brand": "Pegassi",
+        "price": 5000,
+        "top-speed": 103.25
+    },
+    {
+        "name": "Manchez Scout C",
+        "model": "manchez3",
+        "class": "Motorcycles",
+        "brand": "Maibatsu",
+        "price": 0,
+        "top-speed": 137.75
+    },
+    {
+        "name": "Daemon",
+        "model": "daemon",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 0,
+        "top-speed": 107.0
+    }
+]
