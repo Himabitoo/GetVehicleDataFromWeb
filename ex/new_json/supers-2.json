@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Voltic",
+        "model": "voltic",
+        "class": "Supers",
+        "brand": "Coil",
+        "price": 150000,
+        "top-speed": 106.0
+    }
+]

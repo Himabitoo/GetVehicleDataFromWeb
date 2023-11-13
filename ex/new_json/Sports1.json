@@ -1,0 +1,386 @@
+[
+    {
+        "name": "Itali RSX",
+        "model": "italirsx",
+        "class": "Sports",
+        "brand": "Grotti",
+        "price": 3465000,
+        "top-speed": 135.25
+    },
+    {
+        "name": "Itali GTO Stinger TT",
+        "model": "stingertt",
+        "class": "Sports",
+        "brand": "Grotti",
+        "price": 2380000,
+        "top-speed": 132.0
+    },
+    {
+        "name": "Panthere",
+        "model": "panthere",
+        "class": "Sports",
+        "brand": "Toundra",
+        "price": 2170000,
+        "top-speed": 122.5
+    },
+    {
+        "name": "Imorgon",
+        "model": "imorgon",
+        "class": "Sports",
+        "brand": "Overflod",
+        "price": 2165000,
+        "top-speed": 107.25
+    },
+    {
+        "name": "SM722",
+        "model": "sm722",
+        "class": "Sports",
+        "brand": "Benefactor",
+        "price": 2115000,
+        "top-speed": 123.75
+    },
+    {
+        "name": "300R",
+        "model": "r300",
+        "class": "Sports",
+        "brand": "Annis",
+        "price": 2075000,
+        "top-speed": 120.0
+    },
+    {
+        "name": "Calico GTF",
+        "model": "calico",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 1995000,
+        "top-speed": 121.25
+    },
+    {
+        "name": "S95",
+        "model": "s95",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 1995000,
+        "top-speed": 115.5
+    },
+    {
+        "name": "La Coureuse",
+        "model": "coureur",
+        "class": "Sports",
+        "brand": "Penaud",
+        "price": 1990000,
+        "top-speed": 114.5
+    },
+    {
+        "name": "Jester RR",
+        "model": "jester4",
+        "class": "Sports",
+        "brand": "Dinka",
+        "price": 1970000,
+        "top-speed": 125.0
+    },
+    {
+        "name": "Itali GTO",
+        "model": "italigto",
+        "class": "Sports",
+        "brand": "Grotti",
+        "price": 1965000,
+        "top-speed": 127.75
+    },
+    {
+        "name": "Comet S2",
+        "model": "comet6",
+        "class": "Sports",
+        "brand": "Pfister",
+        "price": 1878000,
+        "top-speed": 123.0
+    },
+    {
+        "name": "Neo",
+        "model": "neo",
+        "class": "Sports",
+        "brand": "Vysser",
+        "price": 1875000,
+        "top-speed": 125.75
+    },
+    {
+        "name": "Euros",
+        "model": "euros",
+        "class": "Sports",
+        "brand": "Annis",
+        "price": 1800000,
+        "top-speed": 116.5
+    },
+    {
+        "name": "Comet S2 Cabrio",
+        "model": "comet7",
+        "class": "Sports",
+        "brand": "Pfister",
+        "price": 1797000,
+        "top-speed": 129.0
+    },
+    {
+        "name": "Corsita",
+        "model": "corsita",
+        "class": "Sports",
+        "brand": "Lampadati",
+        "price": 1795000,
+        "top-speed": 131.25
+    },
+    {
+        "name": "Omnis e-GT",
+        "model": "omnisegt",
+        "class": "Sports",
+        "brand": "Obey",
+        "price": 1795000,
+        "top-speed": 111.5
+    },
+    {
+        "name": "Sultan RS Classic",
+        "model": "sultan3",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 1789000,
+        "top-speed": 117.5
+    },
+    {
+        "name": "Vectre",
+        "model": "vectre",
+        "class": "Sports",
+        "brand": "Emperor",
+        "price": 1785000,
+        "top-speed": 115.25
+    },
+    {
+        "name": "Lynx",
+        "model": "lynx",
+        "class": "Sports",
+        "brand": "Ocelot",
+        "price": 1735000,
+        "top-speed": 121.5
+    },
+    {
+        "name": "Sultan Classic",
+        "model": "sultan2",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 1718000,
+        "top-speed": 116.5
+    },
+    {
+        "name": "RT3000",
+        "model": "rt3000",
+        "class": "Sports",
+        "brand": "Dinka",
+        "price": 1715000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "Komoda",
+        "model": "komoda",
+        "class": "Sports",
+        "brand": "Lampadati",
+        "price": 1700000,
+        "top-speed": 123.0
+    },
+    {
+        "name": "10F",
+        "model": "tenf",
+        "class": "Sports",
+        "brand": "Obey",
+        "price": 1675000,
+        "top-speed": 126.0
+    },
+    {
+        "name": "Flash GT",
+        "model": "flashgt",
+        "class": "Sports",
+        "brand": "Vapid",
+        "price": 1675000,
+        "top-speed": 116.25
+    },
+    {
+        "name": "Growler",
+        "model": "growler",
+        "class": "Sports",
+        "brand": "Pfister",
+        "price": 1627000,
+        "top-speed": 121.5
+    },
+    {
+        "name": "Locust",
+        "model": "locust",
+        "class": "Sports",
+        "brand": "Ocelot",
+        "price": 1625000,
+        "top-speed": 119.75
+    },
+    {
+        "name": "ZR350",
+        "model": "zr350",
+        "class": "Sports",
+        "brand": "Annis",
+        "price": 1615000,
+        "top-speed": 117.5
+    },
+    {
+        "name": "Revolter",
+        "model": "revolter",
+        "class": "Sports",
+        "brand": "Ubermacht",
+        "price": 1610000,
+        "top-speed": 115.5
+    },
+    {
+        "name": "Futo GTX",
+        "model": "futo2",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 1590000,
+        "top-speed": 119.75
+    },
+    {
+        "name": "Cypher",
+        "model": "cypher",
+        "class": "Sports",
+        "brand": "Ubermacht",
+        "price": 1550000,
+        "top-speed": 113.5
+    },
+    {
+        "name": "Coquette D10",
+        "model": "coquette4",
+        "class": "Sports",
+        "brand": "Invetero",
+        "price": 1510000,
+        "top-speed": 130.0
+    },
+    {
+        "name": "Neon",
+        "model": "neon",
+        "class": "Sports",
+        "brand": "Pfister",
+        "price": 1500000,
+        "top-speed": 114.0
+    },
+    {
+        "name": "Pariah",
+        "model": "pariah",
+        "class": "Sports",
+        "brand": "Ocelot",
+        "price": 1420000,
+        "top-speed": 136.0
+    },
+    {
+        "name": "Penumbra FF",
+        "model": "penumbra2",
+        "class": "Sports",
+        "brand": "Maibatsu",
+        "price": 1380000,
+        "top-speed": 112.75
+    },
+    {
+        "name": "Raiden",
+        "model": "raiden",
+        "class": "Sports",
+        "brand": "Coil",
+        "price": 1375000,
+        "top-speed": 113.25
+    },
+    {
+        "name": "Remus",
+        "model": "remus",
+        "class": "Sports",
+        "brand": "Annis",
+        "price": 1370000,
+        "top-speed": 115.5
+    },
+    {
+        "name": "Schlagen GT",
+        "model": "schlagen",
+        "class": "Sports",
+        "brand": "Benefactor",
+        "price": 1300000,
+        "top-speed": 125.5
+    },
+    {
+        "name": "V-STR",
+        "model": "vstr",
+        "class": "Sports",
+        "brand": "Albany",
+        "price": 1285000,
+        "top-speed": 126.25
+    },
+    {
+        "name": "Jugular",
+        "model": "jugular",
+        "class": "Sports",
+        "brand": "Ocelot",
+        "price": 1225000,
+        "top-speed": 126.5
+    },
+    {
+        "name": "Sugoi",
+        "model": "sugoi",
+        "class": "Sports",
+        "brand": "Dinka",
+        "price": 1224000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "Comet SR",
+        "model": "comet5",
+        "class": "Sports",
+        "brand": "Pfister",
+        "price": 1145000,
+        "top-speed": 122.0
+    },
+    {
+        "name": "GB200",
+        "model": "gb200",
+        "class": "Sports",
+        "brand": "Vapid",
+        "price": 940000,
+        "top-speed": 114.25
+    },
+    {
+        "name": "Paragon R",
+        "model": "paragon",
+        "class": "Sports",
+        "brand": "Enus",
+        "price": 905000,
+        "top-speed": 123.25
+    },
+    {
+        "name": "Elegy Retro Custom",
+        "model": "elegy",
+        "class": "Sports",
+        "brand": "Annis",
+        "price": 904000,
+        "top-speed": 115.25
+    },
+    {
+        "name": "Issi Sport",
+        "model": "issi7",
+        "class": "Sports",
+        "brand": "Weeny",
+        "price": 897000,
+        "top-speed": 114.25
+    },
+    {
+        "name": "Tropos Rallye",
+        "model": "tropos",
+        "class": "Sports",
+        "brand": "Lampadati",
+        "price": 816000,
+        "top-speed": 119.5
+    },
+    {
+        "name": "Jester Classic",
+        "model": "jester3",
+        "class": "Sports",
+        "brand": "Dinka",
+        "price": 790000,
+        "top-speed": 119.75
+    }
+]

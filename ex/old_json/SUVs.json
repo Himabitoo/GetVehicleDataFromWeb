@@ -1,0 +1,346 @@
+[
+    {
+        "name": "Granger 3600LX",
+        "model": "granger2",
+        "class": "SUVs",
+        "brand": "Declasse",
+        "price": 2000000,
+        "top-speed": 96.75
+    },
+    {
+        "name": "Issi Rally",
+        "model": "issi8",
+        "class": "SUVs",
+        "brand": "Weeny",
+        "price": 1835000,
+        "top-speed": 116.75
+    },
+    {
+        "name": "Astron Custom",
+        "model": "astron2",
+        "class": "SUVs",
+        "brand": "Pfister",
+        "price": 1720000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "I-Wagen",
+        "model": "iwagen",
+        "class": "SUVs",
+        "brand": "Obey",
+        "price": 1720000,
+        "top-speed": 94.0
+    },
+    {
+        "name": "Jubilee",
+        "model": "jubilee",
+        "class": "SUVs",
+        "brand": "Enus",
+        "price": 1650000,
+        "top-speed": 116.75
+    },
+    {
+        "name": "Astron",
+        "model": "astron",
+        "class": "SUVs",
+        "brand": "Pfister",
+        "price": 1580000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "Landstalker XL",
+        "model": "landstalker2",
+        "class": "SUVs",
+        "brand": "Dundreary",
+        "price": 1220000,
+        "top-speed": 100.75
+    },
+    {
+        "name": "Rebla GTS",
+        "model": "rebla",
+        "class": "SUVs",
+        "brand": "Ubermacht",
+        "price": 1175000,
+        "top-speed": 123.5
+    },
+    {
+        "name": "Squaddie",
+        "model": "squaddie",
+        "class": "SUVs",
+        "brand": "Mammoth",
+        "price": 1130000,
+        "top-speed": 101.75
+    },
+    {
+        "name": "Baller ST",
+        "model": "baller7",
+        "class": "SUVs",
+        "brand": "Gallivanter",
+        "price": 890000,
+        "top-speed": 112.0
+    },
+    {
+        "name": "Seminole Frontier",
+        "model": "seminole2",
+        "class": "SUVs",
+        "brand": "Canis",
+        "price": 678000,
+        "top-speed": 100.0
+    },
+    {
+        "name": "Patriot Stretch",
+        "model": "patriot2",
+        "class": "SUVs",
+        "brand": "Mammoth",
+        "price": 611800,
+        "top-speed": 96.25
+    },
+    {
+        "name": "Novak",
+        "model": "novak",
+        "class": "SUVs",
+        "brand": "Lampadati",
+        "price": 608000,
+        "top-speed": 126.0
+    },
+    {
+        "name": "XLS (Armored)",
+        "model": "xls2",
+        "class": "SUVs",
+        "brand": "Benefactor",
+        "price": 522000,
+        "top-speed": 108.25
+    },
+    {
+        "name": "Baller LE LWB (Armored)",
+        "model": "baller6",
+        "class": "SUVs",
+        "brand": "Gallivanter",
+        "price": 513000,
+        "top-speed": 107.75
+    },
+    {
+        "name": "Toros",
+        "model": "toros",
+        "class": "SUVs",
+        "brand": "Pegassi",
+        "price": 498000,
+        "top-speed": 128.0
+    },
+    {
+        "name": "Issi Rally",
+        "model": "issi8",
+        "class": "SUVs",
+        "brand": "Weeny",
+        "price": 450000,
+        "top-speed": 138.25
+    },
+    {
+        "name": "Astron Custom",
+        "model": "astron2",
+        "class": "SUVs",
+        "brand": "Pfister",
+        "price": 395000,
+        "top-speed": 136.25
+    },
+    {
+        "name": "Baller LE (Armored)",
+        "model": "baller5",
+        "class": "SUVs",
+        "brand": "Gallivanter",
+        "price": 374000,
+        "top-speed": 108.25
+    },
+    {
+        "name": "XLS",
+        "model": "xls",
+        "class": "SUVs",
+        "brand": "Benefactor",
+        "price": 253000,
+        "top-speed": 106.0
+    },
+    {
+        "name": "Contender",
+        "model": "contender",
+        "class": "SUVs",
+        "brand": "Vapid",
+        "price": 250000,
+        "top-speed": 109.0
+    },
+    {
+        "name": "Baller LE LWB",
+        "model": "baller4",
+        "class": "SUVs",
+        "brand": "Gallivanter",
+        "price": 247000,
+        "top-speed": 108.25
+    },
+    {
+        "name": "Huntley S",
+        "model": "huntley",
+        "class": "SUVs",
+        "brand": "Enus",
+        "price": 195000,
+        "top-speed": 108.25
+    },
+    {
+        "name": "Baller LE",
+        "model": "baller3",
+        "class": "SUVs",
+        "brand": "Gallivanter",
+        "price": 149000,
+        "top-speed": 108.75
+    },
+    {
+        "name": "Baller",
+        "model": "baller2",
+        "class": "SUVs",
+        "brand": "Gallivanter",
+        "price": 90000,
+        "top-speed": 108.25
+    },
+    {
+        "name": "Rocoto",
+        "model": "rocoto",
+        "class": "SUVs",
+        "brand": "Obey",
+        "price": 85000,
+        "top-speed": 107.5
+    },
+    {
+        "name": "Cavalcade",
+        "model": "cavalcade2",
+        "class": "SUVs",
+        "brand": "Albany",
+        "price": 70000,
+        "top-speed": 98.0
+    },
+    {
+        "name": "Cavalcade",
+        "model": "cavalcade",
+        "class": "SUVs",
+        "brand": "Albany",
+        "price": 60000,
+        "top-speed": 98.0
+    },
+    {
+        "name": "Serrano",
+        "model": "serrano",
+        "class": "SUVs",
+        "brand": "Benefactor",
+        "price": 60000,
+        "top-speed": 101.5
+    },
+    {
+        "name": "Landstalker",
+        "model": "landstalker",
+        "class": "SUVs",
+        "brand": "Dundreary",
+        "price": 58000,
+        "top-speed": 99.25
+    },
+    {
+        "name": "FQ 2",
+        "model": "fq2",
+        "class": "SUVs",
+        "brand": "Fathom",
+        "price": 50000,
+        "top-speed": 104.0
+    },
+    {
+        "name": "Patriot",
+        "model": "patriot",
+        "class": "SUVs",
+        "brand": "Mammoth",
+        "price": 50000,
+        "top-speed": 98.25
+    },
+    {
+        "name": "Habanero",
+        "model": "habanero",
+        "class": "SUVs",
+        "brand": "Emperor",
+        "price": 42000,
+        "top-speed": 104.75
+    },
+    {
+        "name": "Granger",
+        "model": "granger",
+        "class": "SUVs",
+        "brand": "Declasse",
+        "price": 35000,
+        "top-speed": 101.5
+    },
+    {
+        "name": "Radius",
+        "model": "radi",
+        "class": "SUVs",
+        "brand": "Vapid",
+        "price": 32000,
+        "top-speed": 104.5
+    },
+    {
+        "name": "Seminole",
+        "model": "seminole",
+        "class": "SUVs",
+        "brand": "Canis",
+        "price": 30000,
+        "top-speed": 97.5
+    },
+    {
+        "name": "Gresley",
+        "model": "gresley",
+        "class": "SUVs",
+        "brand": "Bravado",
+        "price": 29000,
+        "top-speed": 100.75
+    },
+    {
+        "name": "BeeJay XL",
+        "model": "bjxl",
+        "class": "SUVs",
+        "brand": "Karin",
+        "price": 27000,
+        "top-speed": 96.75
+    },
+    {
+        "name": "Baller",
+        "model": "baller",
+        "class": "SUVs",
+        "brand": "Gallivanter",
+        "price": 0,
+        "top-speed": 100.0
+    },
+    {
+        "name": "Dubsta",
+        "model": "dubsta2",
+        "class": "SUVs",
+        "brand": "Benefactor",
+        "price": 0,
+        "top-speed": 102.0
+    },
+    {
+        "name": "Dubsta",
+        "model": "dubsta",
+        "class": "SUVs",
+        "brand": "Benefactor",
+        "price": 0,
+        "top-speed": 102.0
+    },
+    {
+        "name": "Mesa",
+        "model": "mesa2",
+        "class": "SUVs",
+        "brand": "Canis",
+        "price": 0,
+        "top-speed": 0.0
+    },
+    {
+        "name": "Mesa",
+        "model": "mesa",
+        "class": "SUVs",
+        "brand": "Canis",
+        "price": 0,
+        "top-speed": 95.0
+    }
+]

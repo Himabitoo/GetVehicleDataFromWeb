@@ -1,21 +1,5 @@
 [
     {
-        "name": "Oppressor Mk II",
-        "model": "oppressor2",
-        "class": "Motorcycles",
-        "brand": "Pegassi",
-        "price": 8000000,
-        "top-speed": 127.75
-    },
-    {
-        "name": "Oppressor",
-        "model": "oppressor",
-        "class": "Motorcycles",
-        "brand": "Pegassi",
-        "price": 2750000,
-        "top-speed": 140.0
-    },
-    {
         "name": "Shinobi",
         "model": "shinobi",
         "class": "Motorcycles",
@@ -56,38 +40,6 @@
         "top-speed": 130.0
     },
     {
-        "name": "Hakuchou Drag",
-        "model": "hakuchou2",
-        "class": "Motorcycles",
-        "brand": "Shitzu",
-        "price": 1450000,
-        "top-speed": 157.5
-    },
-    {
-        "name": "Apocalypse Deathbike",
-        "model": "deathbike",
-        "class": "Motorcycles",
-        "brand": "Western",
-        "price": 1269000,
-        "top-speed": 150.0
-    },
-    {
-        "name": "Future Shock Deathbike",
-        "model": "deathbike2",
-        "class": "Motorcycles",
-        "brand": "Western",
-        "price": 1269000,
-        "top-speed": 150.0
-    },
-    {
-        "name": "Nightmare Deathbike",
-        "model": "deathbike3",
-        "class": "Motorcycles",
-        "brand": "Western",
-        "price": 1269000,
-        "top-speed": 150.0
-    },
-    {
         "name": "Lectro",
         "model": "lectro",
         "class": "Motorcycles",
@@ -102,6 +54,22 @@
         "brand": "Shitzu",
         "price": 976000,
         "top-speed": 126.5
+    },
+    {
+        "name": "Rampant Rocket",
+        "model": "rrocket",
+        "class": "Motorcycles",
+        "brand": "Western",
+        "price": 925000,
+        "top-speed": 106.0
+    },
+    {
+        "name": "Stryder",
+        "model": "stryder",
+        "class": "Motorcycles",
+        "brand": "Nagasaki",
+        "price": 670000,
+        "top-speed": 101.5
     },
     {
         "name": "Vindicator",
@@ -160,6 +128,14 @@
         "top-speed": 139.75
     },
     {
+        "name": "Chimera",
+        "model": "chimera",
+        "class": "Motorcycles",
+        "brand": "Nagasaki",
+        "price": 210000,
+        "top-speed": 103.0
+    },
+    {
         "name": "FCR 1000 Custom",
         "model": "fcr2",
         "class": "Motorcycles",
@@ -198,22 +174,6 @@
         "brand": "Western",
         "price": 122000,
         "top-speed": 113.75
-    },
-    {
-        "name": "Gargoyle",
-        "model": "gargoyle",
-        "class": "Motorcycles",
-        "brand": "Western",
-        "price": 120000,
-        "top-speed": 125.0
-    },
-    {
-        "name": "Sovereign",
-        "model": "sovereign",
-        "class": "Motorcycles",
-        "brand": "Western",
-        "price": 120000,
-        "top-speed": 106.25
     },
     {
         "name": "Avarus",
@@ -288,28 +248,12 @@
         "top-speed": 113.5
     },
     {
-        "name": "Faggio Mod",
-        "model": "faggio3",
-        "class": "Motorcycles",
-        "brand": "Pegassi",
-        "price": 55000,
-        "top-speed": 74.25
-    },
-    {
         "name": "Enduro",
         "model": "enduro",
         "class": "Motorcycles",
         "brand": "Dinka",
         "price": 48000,
         "top-speed": 107.25
-    },
-    {
-        "name": "Rat Bike",
-        "model": "ratbike",
-        "class": "Motorcycles",
-        "brand": "Western",
-        "price": 48000,
-        "top-speed": 123.5
     },
     {
         "name": "Faggio Sport",
@@ -430,21 +374,5 @@
         "brand": "Pegassi",
         "price": 5000,
         "top-speed": 103.25
-    },
-    {
-        "name": "Manchez Scout C",
-        "model": "manchez3",
-        "class": "Motorcycles",
-        "brand": "Maibatsu",
-        "price": 0,
-        "top-speed": 137.75
-    },
-    {
-        "name": "Daemon",
-        "model": "daemon",
-        "class": "Motorcycles",
-        "brand": "Western",
-        "price": 0,
-        "top-speed": 107.0
     }
 ]

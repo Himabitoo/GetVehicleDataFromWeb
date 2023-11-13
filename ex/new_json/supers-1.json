@@ -1,0 +1,394 @@
+[
+    {
+        "name": "Weaponized Ignus",
+        "model": "ignus2",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 4500000,
+        "top-speed": 124.75
+    },
+    {
+        "name": "Champion",
+        "model": "champion",
+        "class": "Supers",
+        "brand": "Dewbauchee",
+        "price": 3750000,
+        "top-speed": 124.75
+    },
+    {
+        "name": "Virtue",
+        "model": "virtue",
+        "class": "Supers",
+        "brand": "Ocelot",
+        "price": 2980000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "Torero XO",
+        "model": "torero2",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 2890000,
+        "top-speed": 131.0
+    },
+    {
+        "name": "Krieger",
+        "model": "krieger",
+        "class": "Supers",
+        "brand": "Benefactor",
+        "price": 2875000,
+        "top-speed": 127.25
+    },
+    {
+        "name": "Tezeract",
+        "model": "tezeract",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 2825000,
+        "top-speed": 125.5
+    },
+    {
+        "name": "Zeno",
+        "model": "zeno",
+        "class": "Supers",
+        "brand": "Overflod",
+        "price": 2820000,
+        "top-speed": 127.5
+    },
+    {
+        "name": "Ignus",
+        "model": "ignus",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 2765000,
+        "top-speed": 124.75
+    },
+    {
+        "name": "Emerus",
+        "model": "emerus",
+        "class": "Supers",
+        "brand": "Progen",
+        "price": 2750000,
+        "top-speed": 127.25
+    },
+    {
+        "name": "Furia",
+        "model": "furia",
+        "class": "Supers",
+        "brand": "Grotti",
+        "price": 2740000,
+        "top-speed": 122.0
+    },
+    {
+        "name": "X80 Proto",
+        "model": "prototipo",
+        "class": "Supers",
+        "brand": "Grotti",
+        "price": 2700000,
+        "top-speed": 127.5
+    },
+    {
+        "name": "Tyrus",
+        "model": "tyrus",
+        "class": "Supers",
+        "brand": "Progen",
+        "price": 2550000,
+        "top-speed": 123.5
+    },
+    {
+        "name": "Tyrant",
+        "model": "tyrant",
+        "class": "Supers",
+        "brand": "Overflod",
+        "price": 2515000,
+        "top-speed": 127.0
+    },
+    {
+        "name": "XA-21",
+        "model": "xa21",
+        "class": "Supers",
+        "brand": "Ocelot",
+        "price": 2375000,
+        "top-speed": 122.5
+    },
+    {
+        "name": "Thrax",
+        "model": "thrax",
+        "class": "Supers",
+        "brand": "Truffade",
+        "price": 2325000,
+        "top-speed": 124.0
+    },
+    {
+        "name": "Tigon",
+        "model": "tigon",
+        "class": "Supers",
+        "brand": "Lampadati",
+        "price": 2310000,
+        "top-speed": 125.75
+    },
+    {
+        "name": "Entity XXR",
+        "model": "entity2",
+        "class": "Supers",
+        "brand": "Overflod",
+        "price": 2305000,
+        "top-speed": 128.0
+    },
+    {
+        "name": "Cyclone II",
+        "model": "cyclone2",
+        "class": "Supers",
+        "brand": "Coil",
+        "price": 2250000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "Visione",
+        "model": "visione",
+        "class": "Supers",
+        "brand": "Grotti",
+        "price": 2250000,
+        "top-speed": 125.25
+    },
+    {
+        "name": "T20",
+        "model": "t20",
+        "class": "Supers",
+        "brand": "Progen",
+        "price": 2200000,
+        "top-speed": 122.25
+    },
+    {
+        "name": "ETR1",
+        "model": "sheava",
+        "class": "Supers",
+        "brand": "Emperor",
+        "price": 1995000,
+        "top-speed": 120.75
+    },
+    {
+        "name": "Taipan",
+        "model": "taipan",
+        "class": "Supers",
+        "brand": "Cheval",
+        "price": 1980000,
+        "top-speed": 126.25
+    },
+    {
+        "name": "Autarch",
+        "model": "autarch",
+        "class": "Supers",
+        "brand": "Overflod",
+        "price": 1955000,
+        "top-speed": 125.5
+    },
+    {
+        "name": "Osiris",
+        "model": "osiris",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 1950000,
+        "top-speed": 122.0
+    },
+    {
+        "name": "Zorrusso",
+        "model": "zorrusso",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 1925000,
+        "top-speed": 124.25
+    },
+    {
+        "name": "Cyclone",
+        "model": "cyclone",
+        "class": "Supers",
+        "brand": "Coil",
+        "price": 1890000,
+        "top-speed": 116.25
+    },
+    {
+        "name": "FMJ",
+        "model": "fmj",
+        "class": "Supers",
+        "brand": "Vapid",
+        "price": 1750000,
+        "top-speed": 125.0
+    },
+    {
+        "name": "SC1",
+        "model": "sc1",
+        "class": "Supers",
+        "brand": "Ubermacht",
+        "price": 1603000,
+        "top-speed": 120.75
+    },
+    {
+        "name": "Reaper",
+        "model": "reaper",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 1595000,
+        "top-speed": 121.75
+    },
+    {
+        "name": "Vagner",
+        "model": "vagner",
+        "class": "Supers",
+        "brand": "Dewbauchee",
+        "price": 1535000,
+        "top-speed": 126.75
+    },
+    {
+        "name": "Nero",
+        "model": "nero",
+        "class": "Supers",
+        "brand": "Truffade",
+        "price": 1440000,
+        "top-speed": 126.5
+    },
+    {
+        "name": "Tempesta",
+        "model": "tempesta",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 1329000,
+        "top-speed": 121.25
+    },
+    {
+        "name": "GP1",
+        "model": "gp1",
+        "class": "Supers",
+        "brand": "Progen",
+        "price": 1260000,
+        "top-speed": 123.75
+    },
+    {
+        "name": "Itali GTB",
+        "model": "italigtb",
+        "class": "Supers",
+        "brand": "Progen",
+        "price": 1189000,
+        "top-speed": 126.25
+    },
+    {
+        "name": "811",
+        "model": "pfister811",
+        "class": "Supers",
+        "brand": "Pfister",
+        "price": 1135000,
+        "top-speed": 132.5
+    },
+    {
+        "name": "Deveste Eight",
+        "model": "deveste",
+        "class": "Supers",
+        "brand": "Principe",
+        "price": 1110000,
+        "top-speed": 151.75
+    },
+    {
+        "name": "Adder",
+        "model": "adder",
+        "class": "Supers",
+        "brand": "Truffade",
+        "price": 1000000,
+        "top-speed": 124.75
+    },
+    {
+        "name": "Penetrator",
+        "model": "penetrator",
+        "class": "Supers",
+        "brand": "Ocelot",
+        "price": 880000,
+        "top-speed": 124.0
+    },
+    {
+        "name": "Entity XF",
+        "model": "entityxf",
+        "class": "Supers",
+        "brand": "Overflod",
+        "price": 795000,
+        "top-speed": 121.5
+    },
+    {
+        "name": "Sultan RS",
+        "model": "sultanrs",
+        "class": "Supers",
+        "brand": "Karin",
+        "price": 795000,
+        "top-speed": 117.25
+    },
+    {
+        "name": "Zentorno",
+        "model": "zentorno",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 725000,
+        "top-speed": 122.0
+    },
+    {
+        "name": "Cheetah",
+        "model": "cheetah",
+        "class": "Supers",
+        "brand": "Grotti",
+        "price": 650000,
+        "top-speed": 120.25
+    },
+    {
+        "name": "Nero Custom",
+        "model": "nero2",
+        "class": "Supers",
+        "brand": "Truffade",
+        "price": 605000,
+        "top-speed": 127.25
+    },
+    {
+        "name": "Banshee 900R",
+        "model": "banshee2",
+        "class": "Supers",
+        "brand": "Bravado",
+        "price": 565000,
+        "top-speed": 131.0
+    },
+    {
+        "name": "Turismo R",
+        "model": "turismor",
+        "class": "Supers",
+        "brand": "Grotti",
+        "price": 500000,
+        "top-speed": 121.75
+    },
+    {
+        "name": "Itali GTB Custom",
+        "model": "italigtb2",
+        "class": "Supers",
+        "brand": "Progen",
+        "price": 495000,
+        "top-speed": 127.0
+    },
+    {
+        "name": "Infernus",
+        "model": "infernus",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 440000,
+        "top-speed": 117.75
+    },
+    {
+        "name": "Vacca",
+        "model": "vacca",
+        "class": "Supers",
+        "brand": "Pegassi",
+        "price": 240000,
+        "top-speed": 120.25
+    },
+    {
+        "name": "Bullet",
+        "model": "bullet",
+        "class": "Supers",
+        "brand": "Vapid",
+        "price": 155000,
+        "top-speed": 118.75
+    }
+]

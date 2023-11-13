@@ -1,0 +1,306 @@
+[
+    {
+        "name": "Deity",
+        "model": "deity",
+        "class": "Sedans",
+        "brand": "Enus",
+        "price": 1845000,
+        "top-speed": 117.5
+    },
+    {
+        "name": "Cinquemila",
+        "model": "cinquemila",
+        "class": "Sedans",
+        "brand": "Lampadati",
+        "price": 1740000,
+        "top-speed": 121.0
+    },
+    {
+        "name": "Turreted Limo",
+        "model": "limo2",
+        "class": "Sedans",
+        "brand": "Benefactor",
+        "price": 1650000,
+        "top-speed": 89.5
+    },
+    {
+        "name": "Rhinehart",
+        "model": "rhinehart",
+        "class": "Sedans",
+        "brand": "Ubermacht",
+        "price": 1598000,
+        "top-speed": 123.0
+    },
+    {
+        "name": "Tailgater S",
+        "model": "tailgater2",
+        "class": "Sedans",
+        "brand": "Obey",
+        "price": 1495000,
+        "top-speed": 115.75
+    },
+    {
+        "name": "Stafford",
+        "model": "stafford",
+        "class": "Sedans",
+        "brand": "Enus",
+        "price": 1272000,
+        "top-speed": 93.5
+    },
+    {
+        "name": "Warrener HKR",
+        "model": "warrener2",
+        "class": "Sedans",
+        "brand": "Vulcar",
+        "price": 1260000,
+        "top-speed": 106.5
+    },
+    {
+        "name": "Cognoscenti (Armored)",
+        "model": "cognoscenti2",
+        "class": "Sedans",
+        "brand": "Enus",
+        "price": 558000,
+        "top-speed": 109.75
+    },
+    {
+        "name": "Glendale Custom",
+        "model": "glendale2",
+        "class": "Sedans",
+        "brand": "Benefactor",
+        "price": 520000,
+        "top-speed": 111.25
+    },
+    {
+        "name": "Schafter LWB (Armored)",
+        "model": "schafter6",
+        "class": "Sedans",
+        "brand": "Benefactor",
+        "price": 438000,
+        "top-speed": 109.25
+    },
+    {
+        "name": "Primo Custom",
+        "model": "primo2",
+        "class": "Sedans",
+        "brand": "Albany",
+        "price": 400000,
+        "top-speed": 103.0
+    },
+    {
+        "name": "Cognoscenti 55 (Armored)",
+        "model": "cog552",
+        "class": "Sedans",
+        "brand": "Enus",
+        "price": 396000,
+        "top-speed": 112.25
+    },
+    {
+        "name": "Schafter V12 (Armored)",
+        "model": "schafter5",
+        "class": "Sedans",
+        "brand": "Benefactor",
+        "price": 325000,
+        "top-speed": 123.5
+    },
+    {
+        "name": "Cognoscenti",
+        "model": "cognoscenti",
+        "class": "Sedans",
+        "brand": "Enus",
+        "price": 254000,
+        "top-speed": 110.0
+    },
+    {
+        "name": "Super Diamond",
+        "model": "superd",
+        "class": "Sedans",
+        "brand": "Enus",
+        "price": 250000,
+        "top-speed": 111.75
+    },
+    {
+        "name": "Glendale",
+        "model": "glendale",
+        "class": "Sedans",
+        "brand": "Benefactor",
+        "price": 200000,
+        "top-speed": 107.0
+    },
+    {
+        "name": "Cognoscenti 55",
+        "model": "cog55",
+        "class": "Sedans",
+        "brand": "Enus",
+        "price": 154000,
+        "top-speed": 112.5
+    },
+    {
+        "name": "Warrener",
+        "model": "warrener",
+        "class": "Sedans",
+        "brand": "Vulcar",
+        "price": 120000,
+        "top-speed": 103.25
+    },
+    {
+        "name": "Schafter",
+        "model": "schafter2",
+        "class": "Sedans",
+        "brand": "Benefactor",
+        "price": 65000,
+        "top-speed": 110.25
+    },
+    {
+        "name": "Tailgater",
+        "model": "tailgater",
+        "class": "Sedans",
+        "brand": "Obey",
+        "price": 55000,
+        "top-speed": 104.75
+    },
+    {
+        "name": "Romero Hearse",
+        "model": "romero",
+        "class": "Sedans",
+        "brand": "Chariot",
+        "price": 45000,
+        "top-speed": 89.5
+    },
+    {
+        "name": "Surge",
+        "model": "surge",
+        "class": "Sedans",
+        "brand": "Cheval",
+        "price": 38000,
+        "top-speed": 93.5
+    },
+    {
+        "name": "Stretch",
+        "model": "stretch",
+        "class": "Sedans",
+        "brand": "Dundreary",
+        "price": 30000,
+        "top-speed": 94.25
+    },
+    {
+        "name": "Asterope",
+        "model": "asterope",
+        "class": "Sedans",
+        "brand": "Karin",
+        "price": 26000,
+        "top-speed": 105.0
+    },
+    {
+        "name": "Fugitive",
+        "model": "fugitive",
+        "class": "Sedans",
+        "brand": "Cheval",
+        "price": 24000,
+        "top-speed": 107.75
+    },
+    {
+        "name": "Intruder",
+        "model": "intruder",
+        "class": "Sedans",
+        "brand": "Karin",
+        "price": 16000,
+        "top-speed": 106.0
+    },
+    {
+        "name": "Washington",
+        "model": "washington",
+        "class": "Sedans",
+        "brand": "Albany",
+        "price": 15000,
+        "top-speed": 108.0
+    },
+    {
+        "name": "Asea",
+        "model": "asea",
+        "class": "Sedans",
+        "brand": "Declasse",
+        "price": 12000,
+        "top-speed": 104.75
+    },
+    {
+        "name": "Premier",
+        "model": "premier",
+        "class": "Sedans",
+        "brand": "Declasse",
+        "price": 10000,
+        "top-speed": 104.75
+    },
+    {
+        "name": "Stanier",
+        "model": "stanier",
+        "class": "Sedans",
+        "brand": "Vapid",
+        "price": 10000,
+        "top-speed": 108.0
+    },
+    {
+        "name": "Stratum",
+        "model": "stratum",
+        "class": "Sedans",
+        "brand": "Zirconium",
+        "price": 10000,
+        "top-speed": 104.75
+    },
+    {
+        "name": "Ingot",
+        "model": "ingot",
+        "class": "Sedans",
+        "brand": "Vulcar",
+        "price": 9000,
+        "top-speed": 90.0
+    },
+    {
+        "name": "Primo",
+        "model": "primo",
+        "class": "Sedans",
+        "brand": "Albany",
+        "price": 9000,
+        "top-speed": 103.0
+    },
+    {
+        "name": "Regina",
+        "model": "regina",
+        "class": "Sedans",
+        "brand": "Dundreary",
+        "price": 8000,
+        "top-speed": 86.25
+    },
+    {
+        "name": "Asea",
+        "model": "asea2",
+        "class": "Sedans",
+        "brand": "Declasse",
+        "price": 0,
+        "top-speed": 0.0
+    },
+    {
+        "name": "Emperor",
+        "model": "emperor2",
+        "class": "Sedans",
+        "brand": "Albany",
+        "price": 0,
+        "top-speed": 90.5
+    },
+    {
+        "name": "Emperor",
+        "model": "emperor3",
+        "class": "Sedans",
+        "brand": "Albany",
+        "price": 0,
+        "top-speed": 0.0
+    },
+    {
+        "name": "Emperor",
+        "model": "emperor",
+        "class": "Sedans",
+        "brand": "Albany",
+        "price": 0,
+        "top-speed": 90.5
+    }
+]

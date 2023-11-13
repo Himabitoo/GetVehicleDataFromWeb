@@ -1,0 +1,362 @@
+[
+    {
+        "name": "Deluxo",
+        "model": "deluxo",
+        "class": "Sports Classics",
+        "brand": "Imponte",
+        "price": 5750000,
+        "top-speed": 127.25
+    },
+    {
+        "name": "Retinue Mk II",
+        "model": "retinue2",
+        "class": "Sports Classics",
+        "brand": "Vapid",
+        "price": 1620000,
+        "top-speed": 120.25
+    },
+    {
+        "name": "JB 700W",
+        "model": "jb7002",
+        "class": "Sports Classics",
+        "brand": "Dewbauchee",
+        "price": 1470000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "Michelli GT",
+        "model": "michelli",
+        "class": "Sports Classics",
+        "brand": "Lampadati",
+        "price": 1225000,
+        "top-speed": 106.5
+    },
+    {
+        "name": "Ardent",
+        "model": "ardent",
+        "class": "Sports Classics",
+        "brand": "Ocelot",
+        "price": 1150000,
+        "top-speed": 117.75
+    },
+    {
+        "name": "Torero",
+        "model": "torero",
+        "class": "Sports Classics",
+        "brand": "Pegassi",
+        "price": 998000,
+        "top-speed": 116.5
+    },
+    {
+        "name": "Mamba",
+        "model": "mamba",
+        "class": "Sports Classics",
+        "brand": "Declasse",
+        "price": 995000,
+        "top-speed": 117.0
+    },
+    {
+        "name": "Savestra",
+        "model": "savestra",
+        "class": "Sports Classics",
+        "brand": "Annis",
+        "price": 990000,
+        "top-speed": 117.0
+    },
+    {
+        "name": "Roosevelt Valor",
+        "model": "btype3",
+        "class": "Sports Classics",
+        "brand": "Albany",
+        "price": 982000,
+        "top-speed": 98.5
+    },
+    {
+        "name": "Stirling GT",
+        "model": "feltzer3",
+        "class": "Sports Classics",
+        "brand": "Benefactor",
+        "price": 975000,
+        "top-speed": 112.0
+    },
+    {
+        "name": "Z-Type",
+        "model": "ztype",
+        "class": "Sports Classics",
+        "brand": "Truffade",
+        "price": 950000,
+        "top-speed": 126.25
+    },
+    {
+        "name": "Infernus Classic",
+        "model": "infernus2",
+        "class": "Sports Classics",
+        "brand": "Pegassi",
+        "price": 915000,
+        "top-speed": 118.0
+    },
+    {
+        "name": "Swinger",
+        "model": "swinger",
+        "class": "Sports Classics",
+        "brand": "Ocelot",
+        "price": 909000,
+        "top-speed": 118.25
+    },
+    {
+        "name": "Casco",
+        "model": "casco",
+        "class": "Sports Classics",
+        "brand": "Lampadati",
+        "price": 904400,
+        "top-speed": 120.0
+    },
+    {
+        "name": "190z",
+        "model": "z190",
+        "class": "Sports Classics",
+        "brand": "Karin",
+        "price": 900000,
+        "top-speed": 109.75
+    },
+    {
+        "name": "Turismo Classic",
+        "model": "turismo2",
+        "class": "Sports Classics",
+        "brand": "Grotti",
+        "price": 897000,
+        "top-speed": 150.5
+    },
+    {
+        "name": "Rapid GT Classic",
+        "model": "rapidgt3",
+        "class": "Sports Classics",
+        "brand": "Dewbauchee",
+        "price": 885000,
+        "top-speed": 119.75
+    },
+    {
+        "name": "Stinger GT",
+        "model": "stingergt",
+        "class": "Sports Classics",
+        "brand": "Grotti",
+        "price": 875000,
+        "top-speed": 112.0
+    },
+    {
+        "name": "Viseris",
+        "model": "viseris",
+        "class": "Sports Classics",
+        "brand": "Lampadati",
+        "price": 875000,
+        "top-speed": 124.25
+    },
+    {
+        "name": "Cheetah Classic",
+        "model": "cheetah2",
+        "class": "Sports Classics",
+        "brand": "Grotti",
+        "price": 865000,
+        "top-speed": 120.25
+    },
+    {
+        "name": "Stirling GT",
+        "model": "feltzer3",
+        "class": "Sports Classics",
+        "brand": "Benefactor",
+        "price": 855000,
+        "top-speed": 156.75
+    },
+    {
+        "name": "Stinger",
+        "model": "stinger",
+        "class": "Sports Classics",
+        "brand": "Grotti",
+        "price": 850000,
+        "top-speed": 112.0
+    },
+    {
+        "name": "Zion Classic",
+        "model": "zion3",
+        "class": "Sports Classics",
+        "brand": "Ubermacht",
+        "price": 812000,
+        "top-speed": 113.75
+    },
+    {
+        "name": "Nebula Turbo",
+        "model": "nebula",
+        "class": "Sports Classics",
+        "brand": "Vulcar",
+        "price": 797000,
+        "top-speed": 101.0
+    },
+    {
+        "name": "GT500",
+        "model": "gt500",
+        "class": "Sports Classics",
+        "brand": "Grotti",
+        "price": 785000,
+        "top-speed": 110.75
+    },
+    {
+        "name": "Roosevelt",
+        "model": "btype",
+        "class": "Sports Classics",
+        "brand": "Albany",
+        "price": 750000,
+        "top-speed": 98.5
+    },
+    {
+        "name": "Turismo Classic",
+        "model": "turismo2",
+        "class": "Sports Classics",
+        "brand": "Grotti",
+        "price": 705000,
+        "top-speed": 120.75
+    },
+    {
+        "name": "Coquette Classic",
+        "model": "coquette2",
+        "class": "Sports Classics",
+        "brand": "Invetero",
+        "price": 395000,
+        "top-speed": 118.0
+    },
+    {
+        "name": "Peyote Custom",
+        "model": "peyote3",
+        "class": "Sports Classics",
+        "brand": "Vapid",
+        "price": 620000,
+        "top-speed": 111.0
+    },
+    {
+        "name": "Retinue",
+        "model": "retinue",
+        "class": "Sports Classics",
+        "brand": "Vapid",
+        "price": 615000,
+        "top-speed": 116.5
+    },
+    {
+        "name": "Fr\u00e4nken Stange",
+        "model": "btype2",
+        "class": "Sports Classics",
+        "brand": "Albany",
+        "price": 550000,
+        "top-speed": 106.5
+    },
+    {
+        "name": "Monroe",
+        "model": "monroe",
+        "class": "Sports Classics",
+        "brand": "Pegassi",
+        "price": 490000,
+        "top-speed": 122.0
+    },
+    {
+        "name": "Dynasty",
+        "model": "dynasty",
+        "class": "Sports Classics",
+        "brand": "Weeny",
+        "price": 450000,
+        "top-speed": 93.5
+    },
+    {
+        "name": "Pigalle",
+        "model": "pigalle",
+        "class": "Sports Classics",
+        "brand": "Lampadati",
+        "price": 400000,
+        "top-speed": 121.25
+    },
+    {
+        "name": "Tornado Rat Rod",
+        "model": "tornado6",
+        "class": "Sports Classics",
+        "brand": "Declasse",
+        "price": 378000,
+        "top-speed": 98.75
+    },
+    {
+        "name": "Tornado Custom",
+        "model": "tornado5",
+        "class": "Sports Classics",
+        "brand": "Declasse",
+        "price": 375000,
+        "top-speed": 98.25
+    },
+    {
+        "name": "JB 700",
+        "model": "jb700",
+        "class": "Sports Classics",
+        "brand": "Dewbauchee",
+        "price": 350000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "Fagaloa",
+        "model": "fagaloa",
+        "class": "Sports Classics",
+        "brand": "Vulcar",
+        "price": 335000,
+        "top-speed": 87.5
+    },
+    {
+        "name": "Cheburek",
+        "model": "cheburek",
+        "class": "Sports Classics",
+        "brand": "RUNE",
+        "price": 145000,
+        "top-speed": 108.75
+    },
+    {
+        "name": "Peyote",
+        "model": "peyote",
+        "class": "Sports Classics",
+        "brand": "Vapid",
+        "price": 38000,
+        "top-speed": 98.25
+    },
+    {
+        "name": "Tornado",
+        "model": "tornado",
+        "class": "Sports Classics",
+        "brand": "Declasse",
+        "price": 30000,
+        "top-speed": 98.25
+    },
+    {
+        "name": "Manana",
+        "model": "manana",
+        "class": "Sports Classics",
+        "brand": "Albany",
+        "price": 10000,
+        "top-speed": 98.25
+    },
+    {
+        "name": "Tornado",
+        "model": "tornado3",
+        "class": "Sports Classics",
+        "brand": "Declasse",
+        "price": 0,
+        "top-speed": 98.25
+    },
+    {
+        "name": "Tornado",
+        "model": "tornado2",
+        "class": "Sports Classics",
+        "brand": "Declasse",
+        "price": 0,
+        "top-speed": 98.25
+    },
+    {
+        "name": "Tornado",
+        "model": "tornado4",
+        "class": "Sports Classics",
+        "brand": "Declasse",
+        "price": 0,
+        "top-speed": 98.25
+    }
+]

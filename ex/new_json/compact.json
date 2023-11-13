@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Club",
+        "model": "club",
+        "class": "Compacts",
+        "brand": "BF",
+        "price": 1280000,
+        "top-speed": 112.5
+    },
+    {
+        "name": "Weevil",
+        "model": "weevil",
+        "class": "Compacts",
+        "brand": "BF",
+        "price": 870000,
+        "top-speed": 102.25
+    },
+    {
+        "name": "Brioso 300",
+        "model": "brioso2",
+        "class": "Compacts",
+        "brand": "Grotti",
+        "price": 610000,
+        "top-speed": 86.0
+    },
+    {
+        "name": "Brioso 300 Widebody",
+        "model": "brioso3",
+        "class": "Compacts",
+        "brand": "Grotti",
+        "price": 585000,
+        "top-speed": 96.0
+    },
+    {
+        "name": "Blista Kanjo",
+        "model": "kanjo",
+        "class": "Compacts",
+        "brand": "Dinka",
+        "price": 580000,
+        "top-speed": 109.25
+    },
+    {
+        "name": "Asbo",
+        "model": "asbo",
+        "class": "Compacts",
+        "brand": "Maxwell",
+        "price": 408000,
+        "top-speed": 96.5
+    },
+    {
+        "name": "Issi Classic",
+        "model": "issi3",
+        "class": "Compacts",
+        "brand": "Weeny",
+        "price": 360000,
+        "top-speed": 95.25
+    },
+    {
+        "name": "Brioso R/A",
+        "model": "brioso",
+        "class": "Compacts",
+        "brand": "Grotti",
+        "price": 155000,
+        "top-speed": 103.75
+    },
+    {
+        "name": "Rhapsody",
+        "model": "rhapsody",
+        "class": "Compacts",
+        "brand": "Declasse",
+        "price": 140000,
+        "top-speed": 102.25
+    },
+    {
+        "name": "Panto",
+        "model": "panto",
+        "class": "Compacts",
+        "brand": "Benefactor",
+        "price": 85000,
+        "top-speed": 100.25
+    },
+    {
+        "name": "Dilettante",
+        "model": "dilettante",
+        "class": "Compacts",
+        "brand": "Karin",
+        "price": 25000,
+        "top-speed": 88.5
+    },
+    {
+        "name": "Prairie",
+        "model": "prairie",
+        "class": "Compacts",
+        "brand": "Bollokan",
+        "price": 25000,
+        "top-speed": 103.25
+    },
+    {
+        "name": "Issi",
+        "model": "issi2",
+        "class": "Compacts",
+        "brand": "Weeny",
+        "price": 18000,
+        "top-speed": 104.25
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Bison",
+        "model": "bison",
+        "class": "Vans",
+        "brand": "Bravado",
+        "price": 30000,
+        "top-speed": 98.5
+    },
+    {
+        "name": "Bobcat XL",
+        "model": "bobcatxl",
+        "class": "Vans",
+        "brand": "Vapid",
+        "price": 23000,
+        "top-speed": 95.5
+    },
+    {
+        "name": "Boxville",
+        "model": "boxville",
+        "class": "Vans",
+        "brand": "Brute",
+        "price": 398000,
+        "top-speed": 71.25
+    },
+    {
+        "name": "Boxville",
+        "model": "boxville4",
+        "class": "Vans",
+        "brand": "Brute",
+        "price": 59850,
+        "top-speed": 0.0
+    },
+    {
+        "name": "Bugstars Burrito",
+        "model": "burrito2",
+        "class": "Vans",
+        "brand": "Declasse",
+        "price": 598500,
+        "top-speed": 98.25
+    },
+    {
+        "name": "Gang Burrito",
+        "model": "gburrito2",
+        "class": "Vans",
+        "brand": "Declasse",
+        "price": 86450,
+        "top-speed": 105.25
+    },
+    {
+        "name": "Journey",
+        "model": "journey",
+        "class": "Vans",
+        "brand": "Zirconium",
+        "price": 15000,
+        "top-speed": 74.25
+    },
+    {
+        "name": "Journey II",
+        "model": "journey2",
+        "class": "Vans",
+        "brand": "Zirconium",
+        "price": 790000,
+        "top-speed": 79.25
+    },
+    {
+        "name": "Minivan",
+        "model": "minivan",
+        "class": "Vans",
+        "brand": "Vapid",
+        "price": 30000,
+        "top-speed": 94.75
+    },
+    {
+        "name": "Minivan Custom",
+        "model": "minivan2",
+        "class": "Vans",
+        "brand": "Vapid",
+        "price": 330000,
+        "top-speed": 95.5
+    },
+    {
+        "name": "Paradise",
+        "model": "paradise",
+        "class": "Vans",
+        "brand": "Bravado",
+        "price": 25000,
+        "top-speed": 99.25
+    },
+    {
+        "name": "Rumpo",
+        "model": "rumpo",
+        "class": "Vans",
+        "brand": "Bravado",
+        "price": 13000,
+        "top-speed": 99.5
+    },
+    {
+        "name": "Rumpo Custom",
+        "model": "rumpo3",
+        "class": "Vans",
+        "brand": "Bravado",
+        "price": 130000,
+        "top-speed": 98.75
+    },
+    {
+        "name": "Surfer",
+        "model": "surfer",
+        "class": "Vans",
+        "brand": "BF",
+        "price": 11000,
+        "top-speed": 67.25
+    },
+    {
+        "name": "Surfer Custom",
+        "model": "surfer3",
+        "class": "Vans",
+        "brand": "BF",
+        "price": 590000,
+        "top-speed": 69.75
+    },
+    {
+        "name": "Youga",
+        "model": "youga",
+        "class": "Vans",
+        "brand": "Bravado",
+        "price": 16000,
+        "top-speed": 96.5
+    },
+    {
+        "name": "Youga Classic",
+        "model": "youga2",
+        "class": "Vans",
+        "brand": "Bravado",
+        "price": 195000,
+        "top-speed": 91.0
+    },
+    {
+        "name": "Youga Classic 4x4",
+        "model": "youga3",
+        "class": "Vans",
+        "brand": "Bravado",
+        "price": 1288000,
+        "top-speed": 95.5
+    }
+]

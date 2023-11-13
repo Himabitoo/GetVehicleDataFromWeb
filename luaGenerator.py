@@ -6,8 +6,7 @@ import tkinter as tk
 
 # Setting of Price
 doFold = True
-intFold = 56
-
+intFold = 23.88
 templateVehicle = '''
 ['#vehicleHash'] = {
     ['name'] = '#vehicleName',
@@ -22,8 +21,14 @@ templateVehicle = '''
 '''
 
 # 売る場所のの設定
-shopPDM = [ 'compacts', 'coupes', 'suvs', 'sedans', 'sportsclassics', 'muscle',]
-shopLUXURY = ['sports', 'super', ]
+
+shopPDM = [ 'compacts', 'coupes', 'sedans', 'sports',]
+shopLUXURY = ['super', 'sportsclassics', 'suvs']
+shopBike = [ 'motorcycles' ]
+
+
+shopVans = [ 'vans', 'muscle']
+
 shopHelicopters = [ 'heli' ]
 
 ##########################################
@@ -94,6 +99,9 @@ for i in range(len(json_files)):
             case "SUVs":
                 vehicleCategory = "suvs"
 
+            case "Vans":
+                vehicleCategory = "vans"
+
             case "Sedans":
                 vehicleCategory = "sedans"
 
@@ -140,6 +148,9 @@ for i in range(len(json_files)):
             case "suvs":
                 vehicleCategoryLabel = "SUVs"
 
+            case "vans":
+                vehicleCategoryLabel = "Vans"
+
             case "sedans":
                 vehicleCategoryLabel = "Sedans"
 
@@ -167,6 +178,10 @@ for i in range(len(json_files)):
             vehicleShop = 'pdm'
         elif vehicleCategory in shopLUXURY:
             vehicleShop = 'luxury'
+        elif vehicleCategory in shopBike:
+            vehicleShop = 'motorbike'
+        elif vehicleCategory in shopVans:
+            vehicleShop = 'vansmuscle'
         else:
             vehicleShop = '??'
 

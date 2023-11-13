@@ -1,0 +1,362 @@
+[
+    {
+        "name": "8F Drafter",
+        "model": "drafter",
+        "class": "Sports",
+        "brand": "Obey",
+        "price": 718000,
+        "top-speed": 117.5
+    },
+    {
+        "name": "Comet Safari",
+        "model": "comet4",
+        "class": "Sports",
+        "brand": "Pfister",
+        "price": 710000,
+        "top-speed": 120.0
+    },
+    {
+        "name": "Omnis",
+        "model": "omnis",
+        "class": "Sports",
+        "brand": "Obey",
+        "price": 701000,
+        "top-speed": 112.5
+    },
+    {
+        "name": "Sentinel Classic Widebody",
+        "model": "sentinel4",
+        "class": "Sports",
+        "brand": "Ubermacht",
+        "price": 700000,
+        "top-speed": 127.25
+    },
+    {
+        "name": "Seven-70",
+        "model": "seven70",
+        "class": "Sports",
+        "brand": "Dewbauchee",
+        "price": 695000,
+        "top-speed": 123.5
+    },
+    {
+        "name": "Verlierer",
+        "model": "verlierer2",
+        "class": "Sports",
+        "brand": "Bravado",
+        "price": 695000,
+        "top-speed": 121.75
+    },
+    {
+        "name": "Sentinel Classic",
+        "model": "sentinel3",
+        "class": "Sports",
+        "brand": "Ubermacht",
+        "price": 650000,
+        "top-speed": 117.25
+    },
+    {
+        "name": "Raptor",
+        "model": "raptor",
+        "class": "Sports",
+        "brand": "BF",
+        "price": 648000,
+        "top-speed": 103.25
+    },
+    {
+        "name": "Comet Retro Custom",
+        "model": "comet3",
+        "class": "Sports",
+        "brand": "Pfister",
+        "price": 645000,
+        "top-speed": 121.25
+    },
+    {
+        "name": "Bestia GTS",
+        "model": "bestiagts",
+        "class": "Sports",
+        "brand": "Grotti",
+        "price": 610000,
+        "top-speed": 118.75
+    },
+    {
+        "name": "Specter",
+        "model": "specter",
+        "class": "Sports",
+        "brand": "Dewbauchee",
+        "price": 599000,
+        "top-speed": 121.25
+    },
+    {
+        "name": "10F Widebody",
+        "model": "tenf2",
+        "class": "Sports",
+        "brand": "Obey",
+        "price": 575000,
+        "top-speed": 128.0
+    },
+    {
+        "name": "Sprunk Buffalo",
+        "model": "buffalo3",
+        "class": "Sports",
+        "brand": "Bravado",
+        "price": 535000,
+        "top-speed": 116.0
+    },
+    {
+        "name": "Streiter",
+        "model": "streiter",
+        "class": "Sports",
+        "brand": "Benefactor",
+        "price": 500000,
+        "top-speed": 111.25
+    },
+    {
+        "name": "Furore GT",
+        "model": "furoregt",
+        "class": "Sports",
+        "brand": "Lampadati",
+        "price": 448000,
+        "top-speed": 120.25
+    },
+    {
+        "name": "Ruston",
+        "model": "ruston",
+        "class": "Sports",
+        "brand": "Hijak",
+        "price": 430000,
+        "top-speed": 116.25
+    },
+    {
+        "name": "Massacro (Racecar)",
+        "model": "massacro2",
+        "class": "Sports",
+        "brand": "Dewbauchee",
+        "price": 385000,
+        "top-speed": 121.75
+    },
+    {
+        "name": "Jester (Racecar)",
+        "model": "jester2",
+        "class": "Sports",
+        "brand": "Dinka",
+        "price": 350000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "Massacro",
+        "model": "massacro",
+        "class": "Sports",
+        "brand": "Dewbauchee",
+        "price": 275000,
+        "top-speed": 121.75
+    },
+    {
+        "name": "Specter Custom",
+        "model": "specter2",
+        "class": "Sports",
+        "brand": "Dewbauchee",
+        "price": 252000,
+        "top-speed": 121.25
+    },
+    {
+        "name": "Jester",
+        "model": "jester",
+        "class": "Sports",
+        "brand": "Dinka",
+        "price": 240000,
+        "top-speed": 118.75
+    },
+    {
+        "name": "Schafter LWB",
+        "model": "schafter4",
+        "class": "Sports",
+        "brand": "Benefactor",
+        "price": 208000,
+        "top-speed": 109.5
+    },
+    {
+        "name": "Carbonizzare",
+        "model": "carbonizzare",
+        "class": "Sports",
+        "brand": "Grotti",
+        "price": 195000,
+        "top-speed": 119.5
+    },
+    {
+        "name": "Alpha",
+        "model": "alpha",
+        "class": "Sports",
+        "brand": "Albany",
+        "price": 150000,
+        "top-speed": 117.75
+    },
+    {
+        "name": "Feltzer",
+        "model": "feltzer2",
+        "class": "Sports",
+        "brand": "Benefactor",
+        "price": 145000,
+        "top-speed": 119.5
+    },
+    {
+        "name": "Rapid GT",
+        "model": "rapidgt2",
+        "class": "Sports",
+        "brand": "Dewbauchee",
+        "price": 140000,
+        "top-speed": 119.5
+    },
+    {
+        "name": "Coquette",
+        "model": "coquette",
+        "class": "Sports",
+        "brand": "Invetero",
+        "price": 138000,
+        "top-speed": 119.25
+    },
+    {
+        "name": "Rapid GT",
+        "model": "rapidgt",
+        "class": "Sports",
+        "brand": "Dewbauchee",
+        "price": 132000,
+        "top-speed": 119.5
+    },
+    {
+        "name": "9F Cabrio",
+        "model": "ninef2",
+        "class": "Sports",
+        "brand": "Obey",
+        "price": 130000,
+        "top-speed": 119.75
+    },
+    {
+        "name": "Kuruma",
+        "model": "kuruma",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 126350,
+        "top-speed": 112.0
+    },
+    {
+        "name": "Banshee",
+        "model": "banshee",
+        "class": "Sports",
+        "brand": "Bravado",
+        "price": 90000,
+        "top-speed": 117.75
+    },
+    {
+        "name": "9F",
+        "model": "ninef",
+        "class": "Sports",
+        "brand": "Obey",
+        "price": 120000,
+        "top-speed": 119.75
+    },
+    {
+        "name": "Schafter V12",
+        "model": "schafter3",
+        "class": "Sports",
+        "brand": "Benefactor",
+        "price": 116000,
+        "top-speed": 124.25
+    },
+    {
+        "name": "Surano",
+        "model": "surano",
+        "class": "Sports",
+        "brand": "Benefactor",
+        "price": 99000,
+        "top-speed": 121.0
+    },
+    {
+        "name": "Comet",
+        "model": "comet2",
+        "class": "Sports",
+        "brand": "Pfister",
+        "price": 85000,
+        "top-speed": 119.5
+    },
+    {
+        "name": "Khamelion",
+        "model": "khamelion",
+        "class": "Sports",
+        "brand": "Hijak",
+        "price": 100000,
+        "top-speed": 102.25
+    },
+    {
+        "name": "Buffalo S",
+        "model": "buffalo2",
+        "class": "Sports",
+        "brand": "Bravado",
+        "price": 96000,
+        "top-speed": 112.25
+    },
+    {
+        "name": "Elegy RH8",
+        "model": "elegy2",
+        "class": "Sports",
+        "brand": "Annis",
+        "price": 95000,
+        "top-speed": 118.5
+    },
+    {
+        "name": "Schwartzer",
+        "model": "schwarzer",
+        "class": "Sports",
+        "brand": "Benefactor",
+        "price": 80000,
+        "top-speed": 117.0
+    },
+    {
+        "name": "Blista Compact",
+        "model": "blista2",
+        "class": "Sports",
+        "brand": "Dinka",
+        "price": 42000,
+        "top-speed": 103.0
+    },
+    {
+        "name": "Fusilade",
+        "model": "fusilade",
+        "class": "Sports",
+        "brand": "Schyster",
+        "price": 36000,
+        "top-speed": 117.75
+    },
+    {
+        "name": "Buffalo",
+        "model": "buffalo",
+        "class": "Sports",
+        "brand": "Bravado",
+        "price": 35000,
+        "top-speed": 112.25
+    },
+    {
+        "name": "Penumbra",
+        "model": "penumbra",
+        "class": "Sports",
+        "brand": "Maibatsu",
+        "price": 24000,
+        "top-speed": 105.25
+    },
+    {
+        "name": "Sultan",
+        "model": "sultan",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 12000,
+        "top-speed": 115.75
+    },
+    {
+        "name": "Futo",
+        "model": "futo",
+        "class": "Sports",
+        "brand": "Karin",
+        "price": 9000,
+        "top-speed": 119.25
+    }
+]

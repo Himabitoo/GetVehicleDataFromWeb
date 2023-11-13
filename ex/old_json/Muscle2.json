@@ -1,0 +1,186 @@
+[
+    {
+        "name": "Impaler",
+        "model": "impaler",
+        "class": "Muscle",
+        "brand": "Declasse",
+        "price": 331835,
+        "top-speed": 115.5
+    },
+    {
+        "name": "Virgo Classic Custom",
+        "model": "virgo2",
+        "class": "Muscle",
+        "brand": "Dundreary",
+        "price": 240000,
+        "top-speed": 104.0
+    },
+    {
+        "name": "Chino",
+        "model": "chino",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 225000,
+        "top-speed": 94.25
+    },
+    {
+        "name": "Virgo",
+        "model": "virgo",
+        "class": "Muscle",
+        "brand": "Albany",
+        "price": 195000,
+        "top-speed": 97.5
+    },
+    {
+        "name": "Chino Custom",
+        "model": "chino2",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 180000,
+        "top-speed": 95.5
+    },
+    {
+        "name": "Virgo Classic",
+        "model": "virgo3",
+        "class": "Muscle",
+        "brand": "Dundreary",
+        "price": 165000,
+        "top-speed": 96.75
+    },
+    {
+        "name": "Blade",
+        "model": "blade",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 160000,
+        "top-speed": 109.75
+    },
+    {
+        "name": "Hotknife",
+        "model": "hotknife",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 90000,
+        "top-speed": 109.5
+    },
+    {
+        "name": "Stallion",
+        "model": "stalion",
+        "class": "Muscle",
+        "brand": "Declasse",
+        "price": 71000,
+        "top-speed": 110.25
+    },
+    {
+        "name": "Dukes",
+        "model": "dukes",
+        "class": "Muscle",
+        "brand": "Imponte",
+        "price": 62000,
+        "top-speed": 112.5
+    },
+    {
+        "name": "Slamvan",
+        "model": "slamvan",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 49500,
+        "top-speed": 108.0
+    },
+    {
+        "name": "Rat-Truck",
+        "model": "ratloader2",
+        "class": "Muscle",
+        "brand": "Bravado",
+        "price": 37500,
+        "top-speed": 105.25
+    },
+    {
+        "name": "Faction",
+        "model": "faction",
+        "class": "Muscle",
+        "brand": "Willard",
+        "price": 36000,
+        "top-speed": 110.75
+    },
+    {
+        "name": "Dominator",
+        "model": "dominator",
+        "class": "Muscle",
+        "brand": "Vapid",
+        "price": 35000,
+        "top-speed": 120.25
+    },
+    {
+        "name": "Moonbeam",
+        "model": "moonbeam",
+        "class": "Muscle",
+        "brand": "Declasse",
+        "price": 32500,
+        "top-speed": 102.0
+    },
+    {
+        "name": "Gauntlet",
+        "model": "gauntlet",
+        "class": "Muscle",
+        "brand": "Bravado",
+        "price": 32000,
+        "top-speed": 113.25
+    },
+    {
+        "name": "Buccaneer",
+        "model": "buccaneer",
+        "class": "Muscle",
+        "brand": "Albany",
+        "price": 29000,
+        "top-speed": 113.0
+    },
+    {
+        "name": "Vigero",
+        "model": "vigero",
+        "class": "Muscle",
+        "brand": "Declasse",
+        "price": 21000,
+        "top-speed": 112.0
+    },
+    {
+        "name": "Sabre Turbo",
+        "model": "sabregt",
+        "class": "Muscle",
+        "brand": "Declasse",
+        "price": 15000,
+        "top-speed": 110.75
+    },
+    {
+        "name": "Ruiner",
+        "model": "ruiner",
+        "class": "Muscle",
+        "brand": "Imponte",
+        "price": 10000,
+        "top-speed": 118.75
+    },
+    {
+        "name": "Picador",
+        "model": "picador",
+        "class": "Muscle",
+        "brand": "Cheval",
+        "price": 9000,
+        "top-speed": 102.25
+    },
+    {
+        "name": "Voodoo",
+        "model": "voodoo2",
+        "class": "Muscle",
+        "brand": "Declasse",
+        "price": 5500,
+        "top-speed": 99.0
+    },
+    {
+        "name": "Phoenix",
+        "model": "phoenix",
+        "class": "Muscle",
+        "brand": "Imponte",
+        "price": 0,
+        "top-speed": 113.0
+    }
+]

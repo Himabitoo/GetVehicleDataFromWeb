@@ -19,9 +19,7 @@ class Application:
 
     def __init__(self):
         self.WebUrl = [
-            "https://gtacars.net/gta5?page=1&filter_class=muscle&perPage=60",
-            "https://gtacars.net/gta5?page=2&filter_class=muscle&perPage=60",
-            # "https://gtacars.net/gta5?page=3&filter_class=off_road&filter_class=muscle&perPage=60",
+            "https://gtacars.net/gta5?q&page=1&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&perPage=60",
         ]
         self.saveFolder = "./data/images/"
         self.jsonFolder = "./data/json/"
@@ -44,7 +42,7 @@ class Application:
         # ドライバーのオプション設定用
         option = Options()
         option.add_argument('--lang=ja')
-        # option.add_argument('--headless')
+        option.add_argument('--headless')
         option.add_argument('--no-sandbox')
         option.add_argument('--disable-gpu')
         option.add_argument('--log-level=3')
