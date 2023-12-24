@@ -19,7 +19,7 @@ class Application:
 
     def __init__(self):
         self.WebUrl = [
-            "https://gtacars.net/gta5?q&page=1&sort=price_mp&filter_vehicle_type=car&filter_class=compacts&perPage=60",
+            "https://gtacars.net/?page=1&filter_class=boat&perPage=60",
         ]
         self.saveFolder = "./data/images/"
         self.jsonFolder = "./data/json/"

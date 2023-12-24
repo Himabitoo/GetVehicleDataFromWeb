@@ -6,7 +6,7 @@ import tkinter as tk
 
 # Setting of Price
 doFold = True
-intFold = 23.88
+intFold = 250
 templateVehicle = '''
 ['#vehicleHash'] = {
     ['name'] = '#vehicleName',
@@ -25,11 +25,13 @@ templateVehicle = '''
 shopPDM = [ 'compacts', 'coupes', 'sedans', 'sports',]
 shopLUXURY = ['super', 'sportsclassics', 'suvs']
 shopBike = [ 'motorcycles' ]
-
+shopCycles = [ 'cycles' ]
 
 shopVans = [ 'vans', 'muscle']
 
 shopHelicopters = [ 'heli' ]
+
+shopBoats = ['boats']
 
 ##########################################
 
@@ -114,6 +116,9 @@ for i in range(len(json_files)):
             case "Supers":
                 vehicleCategory = "super"
             
+            case "Boats":
+                vehicleCategory = "boats"
+            
             # case "Helicopters"
             #     vehicleCategory = "heli"
 
@@ -162,6 +167,9 @@ for i in range(len(json_files)):
 
             case "super":
                 vehicleCategoryLabel = "Super"
+            
+            case "boats":
+                vehicleCategoryLabel = "Boats"
 
             case _:
                 vehicleCategoryLabel = "NO-FOUND"
@@ -182,6 +190,10 @@ for i in range(len(json_files)):
             vehicleShop = 'motorbike'
         elif vehicleCategory in shopVans:
             vehicleShop = 'vansmuscle'
+        elif vehicleCategory in shopCycles:
+            vehicleShop = 'cycles'
+        elif vehicleCategory in shopBoats:
+            vehicleShop = 'boats'
         else:
             vehicleShop = '??'
 

@@ -1,0 +1,74 @@
+[
+    {
+        "name": "BMX",
+        "model": "bmx",
+        "class": "Cycles",
+        "brand": "Unknown",
+        "price": 800,
+        "top-speed": 35.25
+    },
+    {
+        "name": "Cruiser",
+        "model": "cruiser",
+        "class": "Cycles",
+        "brand": "Unknown",
+        "price": 800,
+        "top-speed": 33.5
+    },
+    {
+        "name": "Endurex Race Bike",
+        "model": "tribike2",
+        "class": "Cycles",
+        "brand": "Unknown",
+        "price": 10000,
+        "top-speed": 47.0
+    },
+    {
+        "name": "Fixter",
+        "model": "fixter",
+        "class": "Cycles",
+        "brand": "Unknown",
+        "price": 800,
+        "top-speed": 44.25
+    },
+    {
+        "name": "Inductor",
+        "model": "inductor",
+        "class": "Cycles",
+        "brand": "Coil",
+        "price": 5000,
+        "top-speed": 45.5
+    },
+    {
+        "name": "Junk Energy Inductor",
+        "model": "inductor2",
+        "class": "Cycles",
+        "brand": "Coil",
+        "price": 5000,
+        "top-speed": 45.5
+    },
+    {
+        "name": "Scorcher",
+        "model": "scorcher",
+        "class": "Cycles",
+        "brand": "Unknown",
+        "price": 2000,
+        "top-speed": 38.25
+    },
+    {
+        "name": "Tri-Cycles Race Bike",
+        "model": "tribike3",
+        "class": "Cycles",
+        "brand": "Unknown",
+        "price": 1000,
+        "top-speed": 47.0
+    },
+    {
+        "name": "Whippet Race Bike",
+        "model": "tribike",
+        "class": "Cycles",
+        "brand": "Unknown",
+        "price": 1000,
+        "top-speed": 47.0
+    }
+]
